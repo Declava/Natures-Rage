@@ -1,0 +1,34 @@
+﻿CHARACTERS = {
+	c:VAL ?= {
+		create_character = {
+		# Varusio I Valtin of Valuria
+			first_name = "king_varusio_first_name"
+			last_name = "king_varusio_last_name"
+			ruler = yes
+			noble = yes
+			historical = yes
+			birth_date = 1811.2.26
+			ig_leader = yes
+			dna = dna_king_varusio
+			culture = cu:valurian
+			interest_group = ig_industrialists
+			ideology = ideology_keepist
+			traits = {
+				tactful
+				ambitious
+				persistent
+				charismatic
+				honorable
+				innovative
+				surveyor
+				expert_defensive_strategist
+				basic_offensive_planner
+				celebrity_commander
+				experienced_diplomat
+				experienced_colonial_administrator
+				master_bureaucrat
+				experienced_political_operator
+			}
+		}	
+	}
+}

@@ -1,0 +1,48 @@
+﻿language_darthyrian = {
+	type = language
+	trait_group = language_group_romance
+}
+language_jallentian = {
+	type = language
+	trait_group = language_group_germanic
+}
+language_yasarnian = {
+	type = language
+	trait_group = language_group_vasconic
+}
+language_tarsinian = {
+	type = language
+	trait_group = language_group_romance
+}
+language_valurian = {
+	type = language
+	trait_group = language_group_germanic
+}
+language_mairythan = {
+	type = language
+	trait_group = language_group_romance
+}
+language_alireyian = {
+	type = language
+	trait_group = language_group_romance
+}
+language_amarystian = {
+	type = language
+	trait_group = language_group_romance
+}
+language_arehynian = {
+	type = language
+	trait_group = language_group_romance
+}
+language_kirchian = {
+	type = language
+	trait_group = language_group_germanic
+}
+language_valencian = {
+	type = language
+	trait_group = language_group_turkic
+}
+language_vanhausian = {
+	type = language
+	trait_group = language_group_slavic
+}

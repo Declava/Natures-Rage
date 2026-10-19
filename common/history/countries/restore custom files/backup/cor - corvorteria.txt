@@ -1,0 +1,47 @@
+﻿COUNTRIES = {
+	c:COR ?= {
+		ig:ig_intelligentsia = {
+			add_ruling_interest_group = yes
+		}
+		
+		effect_starting_technology_tier_1_tech = yes
+
+		set_tax_level = medium
+		
+		add_taxed_goods = g:wine
+		add_taxed_goods = g:luxury_clothes
+		add_taxed_goods = g:luxury_furniture
+
+		# Laws
+
+		# Power Structure
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_census_voting
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_total_separation
+		activate_law = law_type:law_elected_bureaucrats
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_guaranteed_liberties
+		# Economy
+		activate_law = law_type:law_laissez_faire
+		activate_law = law_type:law_free_trade
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_homesteading
+		activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_dedicated_police
+		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_no_health_system
+		# Human Rights
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_no_workers_rights
+		activate_law = law_type:law_child_labor_allowed
+		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_poor_laws
+		activate_law = law_type:law_no_migration_controls
+		activate_law = law_type:law_slavery_banned
+
+		ig:ig_devout = { 
+			set_interest_group_name = ig_catholic_church
+		}
+	}
+}

@@ -1,0 +1,4 @@
+﻿heritage_darmonist = {
+	type = heritage
+	trait_group = heritage_group_darmonist
+}

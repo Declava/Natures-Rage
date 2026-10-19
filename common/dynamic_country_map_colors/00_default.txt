@@ -1,0 +1,52 @@
+﻿#
+# Note: the triggers are checked at certain key points in the code, not all the time
+# color_key = {
+#    color = "black"      # the map color
+#    possible = { ... }   # the trigger to enable this color
+# }
+#
+
+# Example
+#dynamic_map_color_swedish_junta = {
+#    color = "black"
+#	
+#	possible = {
+#		exists = c:SWE # you /must/ check that a tag exists before doing anything else
+#		this = c:SWE
+#
+#        exists = ig:ig_armed_forces
+#        ig:ig_armed_forces = {
+#            is_in_government = yes
+#        }
+#	}
+#}
+
+yas_constitutional_monarchy = { # Third Kingdom of Yasarnia
+	color = "22 23 79"
+
+	possible = {
+				THIS = c:YAS
+				has_law = law_type:law_monarchy
+				OR = { 
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+					has_law = law_type:law_single_party_state
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_anarchy
+				}
+	}
+}
+yas_monarchy = { # Second Kingdom of Yasarnia
+	color = "197 170 117"
+
+	possible = {
+		THIS = c:YAS
+		has_law = law_type:law_monarchy
+		OR = { 
+				has_law = law_type:law_autocracy
+				has_law = law_type:law_oligarchy
+				has_law = law_type:law_landed_voting
+		}
+	}
+}

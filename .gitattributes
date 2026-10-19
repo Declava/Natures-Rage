@@ -1,0 +1,8 @@
+*.dds filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+gfx/map/textures/removed/flatmap_ap1.dds filter=lfs diff=lfs merge=lfs -text
+gfx/map/textures/removed/flatmap_ep1.dds filter=lfs diff=lfs merge=lfs -text
+gfx/map/textures/removed/flatmap_noise.dds filter=lfs diff=lfs merge=lfs -text
+gfx/map/textures/removed/flatmap_votp.dds filter=lfs diff=lfs merge=lfs -text
+gfx/map/textures/removed/flatmap.dds filter=lfs diff=lfs merge=lfs -text
+dlc/dlc004_voice_of_the_people/gfx/map/textures/flatmap_votp.dds filter=lfs diff=lfs merge=lfs -text

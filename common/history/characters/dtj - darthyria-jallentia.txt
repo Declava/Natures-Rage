@@ -1,0 +1,39 @@
+﻿CHARACTERS = {
+	c:DTJ ?= {
+		create_character = {
+		# Matthieu I Vaillancourt of Darthyria-Jallentia
+			first_name = "king_matthieu_first_name"
+			last_name = "king_matthieu_last_name"
+			ruler = yes
+			noble = yes
+			historical = yes
+			age = 18
+			dna = dna_king_matthieu
+			culture = cu:darthyrian
+			interest_group = ig_industrialists
+			ideology = ideology_market_liberal
+			traits = {
+				ambitious
+				charismatic
+				persistent
+				meticulous
+				brave
+				honorable
+				innovative
+				tactful
+				expensive_tastes
+				master_bureaucrat
+				expert_political_operator
+				expert_colonial_administrator
+				expert_convoy_raider
+				plains_commander
+				resupply_commander
+				dockyard_master
+				expert_naval_commander
+				expert_offensive_planner
+				expert_convoy_raider
+				surveyor
+			}
+		}	
+	}
+}

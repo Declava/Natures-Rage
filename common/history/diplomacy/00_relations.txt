@@ -1,0 +1,17 @@
+﻿DIPLOMACY = {
+	c:DTJ ?= {
+		set_relations = { country = c:YAS value = -10 }
+	}
+	c:TAR ?= {
+		set_relations = { country = c:YAS value = -30 }
+	}
+	c:MAI ?= {
+		set_relations = { country = c:YAS value = 60 }
+	}
+}
+
+DIPLOMACY = {
+	c:MAR ?= {
+		set_relations = { country = c:OST value = 100 }
+	}
+}

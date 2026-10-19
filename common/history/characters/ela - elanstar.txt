@@ -1,0 +1,22 @@
+﻿CHARACTERS = {
+	c:ELA ?= {
+		create_character = {
+		# King Aurelian III of Elanstar
+			first_name = "king_aurelian_first_name"
+			last_name = "king_aurelian_last_name"
+			ruler = yes
+			historical = yes
+			female = no
+			birth_date = 1821.4.7
+			#dna = dna_king_aurelian_03
+			culture = cu:alireyian
+			interest_group = ig_armed_forces
+			ideology = ideology_reformer
+			traits = {
+				charismatic
+				honorable
+				innovative
+			}
+		}	
+	}
+}

@@ -1,0 +1,23 @@
+﻿DIPLOMACY = {
+	c:DTJ ?= {
+		create_diplomatic_pact = {
+			country = c:DOE
+			type = dominion
+		}
+	}
+	c:DTJ ?= {
+		every_subject_or_below = {
+			 set_relations = { country = c:DTJ value = 50 }
+			 add_liberty_desire = -20
+		}
+	}
+	c:TAR ?= {
+		create_diplomatic_pact = {
+			country = c:BAR
+			type = puppet
+		}
+	}
+	c:MAR ?= {
+		create_diplomatic_pact = { country = c:OST type = protectorate }
+	}	
+}

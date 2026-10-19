@@ -1,0 +1,22 @@
+﻿CHARACTERS = {
+	c:VAC ?= {
+		create_character = {
+		# King Koldvost Valece
+			first_name = "king_koldvost_first_name"
+			last_name = "king_koldvost_last_name"
+			ruler = yes
+			noble = yes
+			historical = yes
+			female = no
+			birth_date = 1811.4.16
+			#dna = dna_king_koldvost
+			culture = cu:valencian
+			interest_group = ig_landowners
+			ideology = ideology_reformer
+			traits = {
+				charismatic
+				innovative
+			}
+		}	
+	}
+}

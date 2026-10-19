@@ -1,0 +1,32 @@
+﻿REPLACE:french_empire_clothes_trigger = {
+	exists = scope:character
+	scope:character = {
+		exists = c:DTJ
+		exists = home_country
+		home_country = {
+			OR = {
+				AND = {
+					c:DTJ = this
+					is_subject = no # preventing uniform conflicts if FRA becomes a subject of another country with puppet uniforms
+				}
+				is_subject_of = c:DTJ
+			}		
+		}
+	}
+}
+
+REPLACE:french_empire_clothes_pop_trigger = {
+	exists = scope:pop
+	scope:pop = {
+		exists = c:DTJ
+		home_country = {
+			OR = {
+				AND = {
+					c:DTJ = this
+					is_subject = no # preventing uniform conflicts if FRA becomes a subject of another country with puppet uniforms
+				}
+				is_subject_of = c:DTJ
+			}		
+		}
+	}
+}

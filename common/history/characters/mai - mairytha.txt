@@ -1,0 +1,20 @@
+﻿CHARACTERS = {
+	c:MAI ?= {
+		create_character = {
+		# Queen Vasilica IV of Mairytha
+			first_name = "queen_vasilica_first_name"
+			last_name = "queen_vasilica_last_name"
+			ruler = yes
+			historical = yes
+			female = yes
+			birth_date = 1809.2.26
+			#dna = dna_king_vasilica_04
+			culture = cu:mairythan
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				charismatic
+			}
+		}	
+	}
+}

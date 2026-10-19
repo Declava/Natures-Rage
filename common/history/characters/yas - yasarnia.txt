@@ -1,0 +1,21 @@
+﻿CHARACTERS = {
+	c:YAS ?= {
+		create_character = {
+		# Consul Mikel Benat of Yasarnia
+			first_name = "mikel_first_name"
+			last_name = "mikel_last_name"
+			ruler = yes
+			historical = yes
+			age = 48
+			ig_leader = yes
+			#dna = dna_mikel_benat
+			culture = cu:yasarnian
+			interest_group = ig_industrialists
+			ideology = ideology_market_liberal
+			traits = {
+				charismatic
+				hedonist
+			}
+		}	
+	}
+}

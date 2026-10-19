@@ -1,0 +1,22 @@
+﻿CHARACTERS = {
+	c:AMA ?= {
+		create_character = {
+		# King André IV of Amarystia
+			first_name = "king_andre_first_name"
+			last_name = "king_andre_last_name"
+			ruler = yes
+			historical = yes
+			female = no
+			birth_date = 1796.2.4
+			#dna = dna_king_aurelian_04
+			culture = cu:alireyian
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				imposing
+				honorable
+				direct
+			}
+		}	
+	}
+}

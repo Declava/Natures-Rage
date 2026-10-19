@@ -1,0 +1,92 @@
+﻿gov_darthyrian_monarchy = {
+	transfer_of_power = hereditary
+
+	male_ruler = "RULER_TITLE_KING"
+	female_ruler = "RULER_TITLE_QUEEN"
+	
+	male_heir = "RULER_TITLE_PRINCE"
+	female_heir = "RULER_TITLE_PRINCESS"
+	
+	possible = {
+		has_law = law_type:law_monarchy
+		c:DTJ = ROOT
+		country_has_primary_culture = cu:darthyrian
+	}
+
+	on_government_type_change = {
+		change_to_hereditary = yes
+	}
+	on_post_government_type_change = {
+		post_change_to_hereditary = yes
+	}
+}
+
+gov_valurian_monarchy = {
+	transfer_of_power = hereditary
+	
+	male_ruler = "RULER_TITLE_KAISER"
+	female_ruler = "RULER_TITLE_KAISERINE"
+
+	male_heir = "RULER_TITLE_ARCHDUKE"
+	female_heir = "RULER_TITLE_ARCHDESS"
+	
+	possible = {
+		OR = {
+			country_tier = hegemony
+			country_tier = empire
+		}
+		has_law = law_type:law_monarchy
+		country_has_primary_culture = cu:valurian
+	}
+
+	on_government_type_change = {
+		change_to_hereditary = yes
+	}
+	on_post_government_type_change = {
+		post_change_to_hereditary = yes
+	}
+}
+
+gov_mairythan_monarchy = {
+	transfer_of_power = hereditary
+
+	male_ruler = "RULER_TITLE_KING"
+	female_ruler = "RULER_TITLE_QUEEN"
+	
+	male_heir = "RULER_TITLE_PRINCE"
+	female_heir = "RULER_TITLE_PRINCESS"
+	
+	possible = {
+		has_law = law_type:law_monarchy
+		THIS = c:MAI
+	}
+
+	on_government_type_change = {
+		change_to_hereditary = yes
+	}
+	on_post_government_type_change = {
+		post_change_to_hereditary = yes
+	}
+}
+gov_yasarnian_monarchy = {
+	transfer_of_power = hereditary
+
+	male_ruler = "RULER_TITLE_KING"
+	female_ruler = "RULER_TITLE_QUEEN"
+	
+	male_heir = "RULER_TITLE_PRINCE"
+	female_heir = "RULER_TITLE_PRINCESS"
+	
+	possible = {
+		has_law = law_type:law_monarchy
+		c:YAS = ROOT
+		country_has_primary_culture = cu:yasarnian
+	}
+
+	on_government_type_change = {
+		change_to_hereditary = yes
+	}
+	on_post_government_type_change = {
+		post_change_to_hereditary = yes
+	}
+}

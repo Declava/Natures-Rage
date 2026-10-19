@@ -1,0 +1,32 @@
+﻿heritage_great_darthyrian = {
+	type = heritage
+	trait_group = heritage_group_european
+}
+heritage_scandinavian = {
+	type = heritage
+	trait_group = heritage_group_european
+}
+heritage_yasarnian = {
+	type = heritage
+	trait_group = heritage_group_european
+}
+heritage_tarsinian = {
+	type = heritage
+	trait_group = heritage_group_european
+}
+heritage_valurian = {
+	type = heritage
+	trait_group = heritage_group_european
+}
+REPLACE:heritage_iberian = {
+	type = heritage
+	trait_group = heritage_group_european
+}
+heritage_valencian = {
+	type = heritage
+	trait_group = heritage_group_middle_eastern
+}
+heritage_vanhausian = {
+	type = heritage
+	trait_group = heritage_group_european
+}

@@ -1,0 +1,794 @@
+﻿# common variables
+@coa_width = 768
+@coa_height = 512
+@canton_scale_cross_x = @[ ( 333 / coa_width ) + 0.001 ]
+@canton_scale_cross_y = @[ ( 205 / coa_height ) + 0.001 ]
+@canton_scale_sweden_x = @[ ( 255 / coa_width ) + 0.001 ]
+@canton_scale_sweden_y = @[ ( 204 / coa_height ) + 0.001 ]
+@canton_scale_norway_x = @[ ( 192 / coa_width ) + 0.001 ]
+@canton_scale_norway_y = @[ ( 192 / coa_height ) + 0.001 ]
+@canton_scale_denmark_x = @[ ( 220 / coa_width ) + 0.001 ]
+@canton_scale_denmark_y = @[ ( 220 / coa_height ) + 0.001 ]
+@third = @[1/3]
+
+DTJ = { # Darthyria-Jallentia
+	flag_definition = {
+		coa = DTJ
+		subject_canton = DTJ
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+YAS = { # Yasarnia
+	flag_definition = {
+		coa = YAS
+		subject_canton = YAS
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+	flag_definition = {
+		coa = YAS_cons_monarchy
+		priority = 10
+		trigger = {
+			scope:actor ?= {
+				THIS = c:YAS
+				has_law = law_type:law_monarchy
+				OR = { 
+					has_law = law_type:law_wealth_voting
+					has_law = law_type:law_census_voting
+					has_law = law_type:law_universal_suffrage
+					has_law = law_type:law_single_party_state
+					has_law = law_type:law_technocracy
+					has_law = law_type:law_anarchy
+				}
+			}
+		}
+	}
+	flag_definition = {
+		coa = YAS_monarchy
+		priority = 20
+		trigger = {
+			scope:actor ?= {
+				THIS = c:YAS
+				has_law = law_type:law_monarchy
+				OR = { 
+					has_law = law_type:law_autocracy
+					has_law = law_type:law_oligarchy
+					has_law = law_type:law_landed_voting
+				}
+			}
+		}
+	}
+}
+REPLACE:TAR = { # Tarsina
+	flag_definition = {
+		coa = TAR
+		subject_canton = TAR
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+BAR = { # Barsetia
+	flag_definition = {
+		coa = BAR
+		subject_canton = BAR
+		priority = 1
+		allow_overlord_canton = no
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+VAL = { # Valuria
+	flag_definition = {
+		coa = VAL
+		subject_canton = VAL
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+MAI = { # Mairytha
+	flag_definition = {
+		coa = MAI
+		subject_canton = MAI
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+REPLACE:ROM = { # Maronia
+	flag_definition = {
+		coa = ROM
+		subject_canton = ROM
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+ARE = { # Arehyna
+	flag_definition = {
+		coa = ARE
+		subject_canton = ARE
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+AMA = { # Amarystia
+	flag_definition = {
+		coa = AMA
+		subject_canton = AMA
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+ELA = { # Elanstar
+	flag_definition = {
+		coa = ELA
+		subject_canton = ELA
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+MUL = { # Muhlkirch
+	flag_definition = {
+		coa = MUL
+		subject_canton = MUL
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+VAC = { # Valence
+	flag_definition = {
+		coa = VAC
+		subject_canton = VAC
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+RAV = { # Ravavid
+	flag_definition = {
+		coa = RAV
+		subject_canton = RAV
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+VAN = { # Vanhäus
+	flag_definition = {
+		coa = VAN
+		subject_canton = VAN
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+REPLACE:COR = { # Corvorteria
+	flag_definition = {
+		coa = COR
+		subject_canton = COR
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+MAR = { # Martania
+	flag_definition = {
+		coa = MAR
+		subject_canton = MAR
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+OST = { # Ostrau
+	flag_definition = {
+		coa = OST
+		subject_canton = OST
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+KON = { # Konšeišta
+	flag_definition = {
+		coa = KON
+		subject_canton = KON
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+REPLACE:MOR = { # Morivacs
+	flag_definition = {
+		coa = MOR
+		subject_canton = MOR
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+ALE = { # Alentoria
+	flag_definition = {
+		coa = ALE
+		subject_canton = ALE
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+ARH = { # Arhagronn
+	flag_definition = {
+		coa = ARH
+		subject_canton = ARH
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+REPLACE:MAL = { # Malatia
+	flag_definition = {
+		coa = MAL
+		subject_canton = MAL
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+VYR = { # Vyrikun
+	flag_definition = {
+		coa = VYR
+		subject_canton = VYR
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+MAO = { # Maotanai
+	flag_definition = {
+		coa = MAO
+		subject_canton = MAO
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+SEY = { # Seyarsia
+	flag_definition = {
+		coa = SEY
+		subject_canton = SEY
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+ALR = { # Aleria
+	flag_definition = {
+		coa = ALR
+		subject_canton = ALR
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+MAT = { # Maratorina
+	flag_definition = {
+		coa = MAT
+		subject_canton = MAT
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+XYR = { # Xyrnathii
+	flag_definition = {
+		coa = XYR
+		subject_canton = XYR
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+##### New Section
+AER = { # Aereshina
+	flag_definition = {
+		coa = AER
+		subject_canton = AER
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+AST = { # Asteria
+	flag_definition = {
+		coa = AST
+		subject_canton = AST
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+BAS = { # Basir Naji
+	flag_definition = {
+		coa = BAS
+		subject_canton = BAS
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+BET = { # Betaria
+	flag_definition = {
+		coa = BET
+		subject_canton = BET
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+BEY = { # Beyet
+	flag_definition = {
+		coa = BEY
+		subject_canton = BEY
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+COE = { # Correndina
+	flag_definition = {
+		coa = COE
+		subject_canton = COE
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+DAM = { # Dameno
+	flag_definition = {
+		coa = DAM
+		subject_canton = DAM
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+DAN = { # Dana
+	flag_definition = {
+		coa = DAN
+		subject_canton = DAN
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+DAR = { # Dargera
+	flag_definition = {
+		coa = DAR
+		subject_canton = DAR
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+DOE = { # Eire
+	flag_definition = {
+		coa = DOE
+		subject_canton = DOE
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+DOR = { # Dorcarra
+	flag_definition = {
+		coa = DOR
+		subject_canton = DOR
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+GOB = { # Gooberia
+	flag_definition = {
+		coa = GOB
+		subject_canton = GOB
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+HAB = { # Habarina
+	flag_definition = {
+		coa = HAB
+		subject_canton = HAB
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+IRE = { # Ireigo
+	flag_definition = {
+		coa = IRE
+		subject_canton = IRE
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+ISA = { # Isamega
+	flag_definition = {
+		coa = ISA
+		subject_canton = ISA
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+ISK = { # Isketia
+	flag_definition = {
+		coa = ISK
+		subject_canton = ISK
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+JAM = { # Jamiju
+	flag_definition = {
+		coa = JAM
+		subject_canton = JAM
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+KAI = { # Kali
+	flag_definition = {
+		coa = KAI
+		subject_canton = KAI
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+KAL = { # Kalud
+	flag_definition = {
+		coa = KAL
+		subject_canton = KAL
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+KOI = { # Konilya
+	flag_definition = {
+		coa = KOI
+		subject_canton = KOI
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+LAV = { # La Valera
+	flag_definition = {
+		coa = LAV
+		subject_canton = LAV
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+MAJ = { # Marjahadina
+	flag_definition = {
+		coa = MAJ
+		subject_canton = MAJ
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+MAS = { # Mayashi-Scorpioka
+	flag_definition = {
+		coa = MAS
+		subject_canton = MAS
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+MAW = { # Maraw
+	flag_definition = {
+		coa = MAW
+		subject_canton = MAW
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+MAY = { # Mayari Qethelani
+	flag_definition = {
+		coa = MAY
+		subject_canton = MAY
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+MER = { # Merelyka
+	flag_definition = {
+		coa = MER
+		subject_canton = MER
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+MES = { # Meserina
+	flag_definition = {
+		coa = MES
+		subject_canton = MES
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+MEY = { # Mereyna
+	flag_definition = {
+		coa = MEY
+		subject_canton = MEY
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+MIR = { # Miranjia
+	flag_definition = {
+		coa = MIR
+		subject_canton = MIR
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+MOD = { # Morendec
+	flag_definition = {
+		coa = MOD
+		subject_canton = MOD
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+MOL = { # Morlinu
+	flag_definition = {
+		coa = MOL
+		subject_canton = MOL
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+MOT = { # Mortana
+	flag_definition = {
+		coa = MOT
+		subject_canton = MOT
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+MIA = { # Miratt
+	flag_definition = {
+		coa = MIA
+		subject_canton = MIA
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+MRY = { # Mrystavania
+	flag_definition = {
+		coa = MRY
+		subject_canton = MRY
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+NOB = { # Totsuii Nobutanii
+	flag_definition = {
+		coa = NOB
+		subject_canton = NOB
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+POL = { # Poluna
+	flag_definition = {
+		coa = POL
+		subject_canton = POL
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+PYR = { # Pyrenna
+	flag_definition = {
+		coa = PYR
+		subject_canton = PYR
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+QRI = { # Mayari Qri'lanoti
+	flag_definition = {
+		coa = QRI
+		subject_canton = QRI
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+SAN = { # Sanotaii
+	flag_definition = {
+		coa = SAN
+		subject_canton = SAN
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+SAR = { # Saragara
+	flag_definition = {
+		coa = SAR
+		subject_canton = SAR
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+SEV = { # Seyvanna (Thailand)
+	flag_definition = {
+		coa = SEV
+		subject_canton = SEV
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+SHA = { # Sharn Merynh
+	flag_definition = {
+		coa = SHA
+		subject_canton = SHA
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+SUO = { # Suolongshi
+	flag_definition = {
+		coa = SUO
+		subject_canton = SUO
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+TAM = { # Tamilia
+	flag_definition = {
+		coa = TAM
+		subject_canton = TAM
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+TOU = { # Tounan Merinara
+	flag_definition = {
+		coa = TOU
+		subject_canton = TOU
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+ETA = { # Matfalisha Etanori
+	flag_definition = {
+		coa = ETA
+		subject_canton = ETA
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+VAD = { # Vandalicourt
+	flag_definition = {
+		coa = VAD
+		subject_canton = VAD
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+VAR = { # Varcresse
+	flag_definition = {
+		coa = VAR
+		subject_canton = VAR
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+VER = { # New Verenze
+	flag_definition = {
+		coa = VER
+		subject_canton = VER
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+YAL = { # Yaletia
+	flag_definition = {
+		coa = YAL
+		subject_canton = YAL
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+YEM = { # Yemero
+	flag_definition = {
+		coa = YEM
+		subject_canton = YEM
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+ZEK = { # Zekaria
+	flag_definition = {
+		coa = ZEK
+		subject_canton = ZEK
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+ZEY = { # Zeky'har
+	flag_definition = {
+		coa = ZEY
+		subject_canton = ZEY
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+ZOR = { # Zorisai
+	flag_definition = {
+		coa = ZOR
+		subject_canton = ZOR
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+ZUJ = { # Zuja
+	flag_definition = {
+		coa = ZUJ
+		subject_canton = ZUJ
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}

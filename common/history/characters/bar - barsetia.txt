@@ -1,0 +1,20 @@
+﻿CHARACTERS = {
+	c:BAR ?= {
+		create_character = {
+		# Sergio Abacchio
+			first_name = "sergio_first_name"
+			last_name = "sergio_last_name"
+			ruler = yes
+			historical = yes
+			female = no
+			birth_date = 1799.2.17
+			#dna = dna_sergio_abacchio
+			culture = cu:tarsinian
+			interest_group = ig_landowners
+			ideology = ideology_authoritarian
+			traits = {
+				imposing
+			}
+		}	
+	}
+}

@@ -1,0 +1,277 @@
+﻿POPS = {
+# Darthyrian Africa
+	s:STATE_SIERRA_LEONE = {
+		region_state:DTJ = {
+			create_pop = {
+				culture = afro_caribbean
+				size = 38000
+			}
+			create_pop = {
+				culture = kissi
+				size = 25320
+			}
+			create_pop = {
+				culture = mande
+				size = 653672
+			}
+			create_pop = {
+				culture = mossi
+				size = 47996
+			}
+			create_pop = {
+				culture = fulbe
+				size = 135000
+			}
+		}
+	}
+	s:STATE_LIBERIA = {
+		region_state:DTJ = {
+			create_pop = {
+				culture = kru
+				size = 414200
+			}
+			create_pop = {
+				culture = bassa
+				size = 120000
+			}
+			create_pop = {
+				culture = kissi
+				size = 79200
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = bassa
+				size = 13300
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = kissi
+				size = 8800
+			}
+			create_pop = {
+				culture = mande
+				size = 170000
+			}
+			create_pop = {
+				culture = afro_american
+				size = 58996
+			}
+			create_pop = {
+				culture = kru
+				religion = catholic
+				size = 16400
+			}
+		}
+	}
+	s:STATE_YORUBA_STATES = {
+		region_state:DTJ = {
+			create_pop = {
+				culture = yoruba
+				size = 1548008
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = fon
+				size = 27996
+			}
+		}
+	}
+	s:STATE_NIGER_DELTA = {
+		region_state:DTJ = {
+			create_pop = {
+				culture = ibo
+				size = 1048000
+			}
+			create_pop = {
+				culture = equatorial_bantu
+				size = 728000
+			}
+			create_pop = {
+				culture = ibibio
+				size = 420000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = ibo
+				size = 100000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = equatorial_bantu
+				size = 20000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = ibibio
+				size = 30000
+			}
+		}
+	}
+	s:STATE_BENIN = {
+		region_state:DTJ = {
+			create_pop = {
+				culture = edo
+				size = 493792
+			}
+			create_pop = {
+				culture = ibo
+				size = 312000
+			}
+			create_pop = {
+				culture = yoruba
+				size = 231996
+			}
+			create_pop = {
+				culture = fulbe
+				size = 268000
+			}
+			create_pop = {
+				culture = tiv
+				size = 186000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = tiv
+				size = 186000
+			}
+		}
+	}
+	s:STATE_ZANZIBAR = {
+		region_state:DTJ = {
+			create_pop = {
+				culture = swahili
+				size = 382800
+			}
+			create_pop = {
+				culture = sukuma
+				religion = animist
+				size = 12000
+			}
+			create_pop = {
+				culture = lacustrine_bantu
+				size = 466396
+			}
+			create_pop = {
+				culture = lacustrine_bantu
+				religion = sunni
+				size = 84000
+			}
+			create_pop = {
+				culture = bedouin
+				size = 4004
+			}
+			create_pop = {
+				culture = bedouin
+				religion = sunni
+				size = 4000
+			}
+			create_pop = {
+				culture = sukuma
+				size = 28000
+			}
+			create_pop = {
+				culture = sukuma
+				size = 92000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = swahili
+				size = 30000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lacustrine_bantu
+				size = 45000
+			}
+		}
+	}
+	s:STATE_CAPE_COLONY = {
+		region_state:DTJ = {
+			create_pop = {
+				culture = khoisan
+				size = 163992
+			}
+			create_pop = {
+				culture = sotho
+				size = 40004
+			}
+			create_pop = {
+				culture = khoisan
+				religion = protestant
+				size = 108000
+			}
+			create_pop = {
+				culture = darthyrian
+				size = 44100
+			}
+			create_pop = {
+				culture = boer
+				size = 95508
+			}
+		}
+	}
+	s:STATE_EASTERN_CAPE = {
+		region_state:DTJ = {
+			create_pop = {
+				culture = xhosa
+				size = 184400
+			}
+			create_pop = {
+				culture = darthyrian
+				size = 48000
+			}
+			create_pop = {
+				culture = nguni
+				size = 8000
+			}
+			create_pop = {
+				culture = khoisan
+				size = 27996
+			}
+		}
+	}
+	s:STATE_NORTHERN_CAPE = {
+		region_state:DTJ = {
+			create_pop = {
+				culture = sotho
+				size = 32000
+			}
+			create_pop = {
+				culture = darthyrian
+				size = 4000
+			}
+			create_pop = {
+				culture = boer
+				size = 25000
+			}
+			create_pop = {
+				culture = khoisan
+				size = 12000
+			}
+		}
+	}
+	s:STATE_SOUTH_MADAGASCAR = {
+		region_state:DTJ = {
+			create_pop = {
+				culture = malagasy
+				size = 805196
+			}
+			create_pop = {
+				culture = malagasy
+				religion = sunni
+				size = 72604
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = malagasy
+				size = 15000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = malagasy
+				religion = sunni
+				size = 5000
+			}
+		}
+	}
+}

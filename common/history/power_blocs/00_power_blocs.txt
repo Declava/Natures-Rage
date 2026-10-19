@@ -1,0 +1,43 @@
+﻿POWER_BLOCS = {
+	c:DTJ = {
+		create_power_bloc = {
+			name = DARTHYRIAN_EMPIRE
+			map_color = { 47 36 119 }
+
+			founding_date = 1621.5.12 # Date of the Jallentian Inheritance
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_3
+
+			# subjects are automatically part of the bloc
+		}
+		if = {
+			limit = {
+				has_dlc_feature = power_bloc_features
+			}
+			power_bloc = {
+				add_principle = principle_colonial_offices_3
+				add_principle = principle_foreign_investment_3
+			}
+		}
+	}
+	c:YAS = {
+		create_power_bloc = {
+			name = MERATTE_SYSTEM
+			map_color = { 135 9 79 }
+
+			founding_date = 1784.5.12 # Treaty of Paris (1783) comes into effect
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_1
+
+			# subjects are automatically part of the bloc
+		}
+		if = {
+			limit = {
+				has_dlc_feature = power_bloc_features
+			}
+			power_bloc = {
+				add_principle = principle_colonial_offices_2
+			}
+		}
+	}
+}

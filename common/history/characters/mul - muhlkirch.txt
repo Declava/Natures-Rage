@@ -1,0 +1,24 @@
+﻿CHARACTERS = {
+	c:MUL ?= {
+		create_character = {
+		# King Ludwig I von Terdenz
+			first_name = "king_ludwig_first_name"
+			last_name = "king_ludwig_last_name"
+			ruler = yes
+			historical = yes
+			female = no
+			birth_date = 1831.1.7
+			#dna = dna_king_ludwig
+			culture = cu:kirchian
+			interest_group = ig_landowners
+			ideology = ideology_authoritarian
+			traits = {
+				direct
+				ambitious
+				imperious
+				cruel
+				expert_offensive_planner
+			}
+		}	
+	}
+}

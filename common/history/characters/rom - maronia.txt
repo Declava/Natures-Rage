@@ -1,0 +1,19 @@
+﻿CHARACTERS = {
+	c:ROM ?= {
+		create_character = {
+		# Manuel Filip
+			first_name = "manuel_first_name"
+			last_name = "manuel_last_name"
+			ruler = yes
+			historical = yes
+			birth_date = 1828.4.17
+			#dna = dna_manuel_filip
+			culture = cu:alireyian
+			interest_group = ig_petty_bourgeoisie
+			ideology = ideology_moderate
+			traits = {
+				firebrand
+			}
+		}	
+	}
+}

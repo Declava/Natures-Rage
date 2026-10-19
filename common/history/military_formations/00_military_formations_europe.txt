@@ -1,0 +1,134 @@
+﻿MILITARY_FORMATIONS = {
+	c:DTJ ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_western_europe
+			name = Home_Army
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_HOME_COUNTIES
+				count = 100
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_WEST_COUNTRY
+				count = 14
+			}
+			save_scope_as = home_army_army
+		}
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_western_europe
+			name = Royal_Navy
+
+			ship = {
+				type = ship_type:ship_type_frigate
+				state_region = s:STATE_HOME_COUNTIES
+				count = 45
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				state_region = s:STATE_WEST_COUNTRY
+				count = 40
+			}
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				state_region = s:STATE_WALES
+				count = 30
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				state_region = s:STATE_EAST_ANGLIA
+				count = 40
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				state_region = s:STATE_MIDLANDS
+				count = 30
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				state_region = s:STATE_YORKSHIRE
+				count = 30
+			}
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				state_region = s:STATE_LANCASHIRE
+				count = 4
+			}
+			save_scope_as = royal_navy
+		}
+	}
+	c:YAS ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_western_europe
+			name = 1st_Yasarnian_Army
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_ILE_DE_FRANCE
+				count = 100
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_NORMANDY
+				count = 54
+			}
+		}
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_western_europe
+			name = 1st_Yasarnian_Fleet
+
+			combat_unit = {
+				type = ship_type:ship_type_frigate
+				state_region = s:STATE_NORMANDY
+				count = 30
+			}
+			combat_unit = {
+				type = ship_type:ship_type_frigate
+				state_region = s:STATE_PICARDY
+				count = 30
+			}
+			combat_unit = {
+				type = ship_type:ship_type_ship_of_the_line
+				state_region = s:STATE_FRENCH_LOW_COUNTRIES
+				count = 30
+			}
+			combat_unit = {
+				type = ship_type:ship_type_frigate
+				state_region = s:STATE_BRITTANY
+				count = 30
+			}
+			combat_unit = {
+				type = ship_type:ship_type_frigate
+				state_region = s:STATE_LANGUEDOC
+				count = 30
+			}
+			combat_unit = {
+				type = ship_type:ship_type_frigate
+				state_region = s:STATE_AQUITAINE
+				count = 30
+			}
+			combat_unit = {
+				type = ship_type:ship_type_ship_of_the_line
+				state_region = s:STATE_FLANDERS
+				count = 30
+			}
+			combat_unit = {
+				type = ship_type:ship_type_ship_of_the_line
+				state_region = s:STATE_POITOU
+				count = 30
+			}
+			combat_unit = {
+				type = ship_type:ship_type_ship_of_the_line
+				state_region = s:STATE_PROVENCE
+				count = 12
+			}
+		}
+	}
+}

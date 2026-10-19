@@ -1,0 +1,64 @@
+﻿BUILDINGS={
+
+
+	s:STATE_TASMANIA={
+		region_state:DTJ={
+			create_building={
+				building="building_barrack"
+				add_ownership={
+					country={
+						country="c:DTJ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
+			}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:DTJ"
+						levels=1
+						region="STATE_HOME_COUNTIES"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"  }
+			}
+		}
+	}
+
+
+
+
+	s:STATE_NORTH_ISLAND={
+		region_state:DTJ={
+			create_building={
+				building="building_barrack"
+				add_ownership={
+					country={
+						country="c:DTJ"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
+			}
+
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:DTJ"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_anchorage" }
+			}
+		}
+	}
+
+}

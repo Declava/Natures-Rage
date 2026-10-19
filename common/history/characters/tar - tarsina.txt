@@ -1,0 +1,26 @@
+﻿CHARACTERS = {
+	c:TAR ?= {
+		create_character = {
+		# Consul Mario Manzogeri of Tarsina
+			first_name = "mario_first_name"
+			last_name = "mario_last_name"
+			ruler = yes
+			historical = yes
+			birth_date = 1798.05.17
+			ig_leader = yes
+			#dna = dna_mario_manzogeri
+			culture = cu:tarsinian
+			interest_group = ig_landowners
+			ideology = ideology_cattronian
+			traits = {
+				ambitious
+				persistent
+				wrathful
+				hedonist
+				reckless
+				bigoted
+				arrogant
+			}
+		}	
+	}
+}

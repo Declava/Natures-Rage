@@ -1,0 +1,38 @@
+﻿gov_yasarnian_parliamentary_republic = {
+	transfer_of_power = parliamentary_elective
+	new_leader_on_reform_government = yes
+
+	male_ruler = "RULER_TITLE_CONSUL"
+	female_ruler = "RULER_TITLE_CONSUL"
+	
+	possible = {
+		has_law = law_type:law_parliamentary_republic
+		country_has_primary_culture = cu:yasarnian
+	}
+
+	on_government_type_change = {
+		change_to_parliamentary_elective = yes
+	}
+	on_post_government_type_change = {
+		post_change_to_parliamentary_elective = yes
+	}
+}
+gov_tarsinian_parliamentary_republic = {
+	transfer_of_power = parliamentary_elective
+	new_leader_on_reform_government = yes
+
+	male_ruler = "RULER_TITLE_CONSUL"
+	female_ruler = "RULER_TITLE_CONSUL"
+	
+	possible = {
+		has_law = law_type:law_parliamentary_republic
+		country_has_primary_culture = cu:tarsinian
+	}
+
+	on_government_type_change = {
+		change_to_parliamentary_elective = yes
+	}
+	on_post_government_type_change = {
+		post_change_to_parliamentary_elective = yes
+	}
+}

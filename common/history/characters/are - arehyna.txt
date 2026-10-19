@@ -1,0 +1,19 @@
+﻿CHARACTERS = {
+	c:ARE ?= {
+		create_character = {
+		# Flavius Mihăiță
+			first_name = "flavius_first_name"
+			last_name = "flavius_last_name"
+			ruler = yes
+			historical = yes
+			birth_date = 1821.8.4
+			#dna = dna_flavius_mihaita
+			culture = cu:arehynian
+			interest_group = ig_landowners
+			ideology = ideology_moderate
+			traits = {
+				reckless
+			}
+		}	
+	}
+}

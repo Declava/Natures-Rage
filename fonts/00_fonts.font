@@ -1,0 +1,76 @@
+fontfiles = {
+	name = "FancyFonts"
+	always_load = yes
+
+	group = {
+		languages = { "l_english" "l_braz_por" "l_french" "l_german" "l_polish" "l_spanish" "l_turkish" }
+		files = { 
+			"fonts/FancyFonts/GeographicaHand.otf"
+			"fonts/FancyFonts/Bruskovaya.ttf"
+			"fonts/FancyFonts/YasashisaAntique.otf"
+			"fonts/FancyFonts/MLi-PRC-Bold.ttf"
+			"fonts/FancyFonts/Typo_SSiMyungJo.ttf"
+		}
+	}
+	
+	group = {
+		languages = { "l_russian" }
+		files = { 
+            "fonts/FancyFonts/Bruskovaya.ttf"
+			"fonts/FancyFonts/GeographicaHand.otf"
+            "fonts/FancyFonts/YasashisaAntique.otf"
+            "fonts/FancyFonts/MLi-PRC-Bold.ttf"
+            "fonts/FancyFonts/Typo_SSiMyungJo.ttf"
+		}
+	}
+	
+	group = {
+        languages = { "l_japanese" }
+        files = {
+			"fonts/FancyFonts/YasashisaAntique.otf"
+			"fonts/FancyFonts/GeographicaHand.otf"
+            "fonts/FancyFonts/Bruskovaya.ttf"
+            "fonts/FancyFonts/MLi-PRC-Bold.ttf"
+            "fonts/FancyFonts/Typo_SSiMyungJo.ttf"
+        }
+    }
+
+	group = {
+		languages = { "l_simp_chinese" }
+		files = { 
+			"fonts/FancyFonts/MLi-PRC-Bold.ttf"
+			"fonts/FancyFonts/GeographicaHand.otf"
+			"fonts/FancyFonts/Bruskovaya.ttf"
+			"fonts/FancyFonts/YasashisaAntique.otf"
+			"fonts/FancyFonts/Typo_SSiMyungJo.ttf"
+		}
+	}
+
+	group = {
+        languages = { "l_korean" }
+        files = {
+            "fonts/FancyFonts/Typo_SSiMyungJo.ttf"
+            "fonts/FancyFonts/GeographicaHand.otf"
+			"fonts/FancyFonts/Bruskovaya.ttf"
+			"fonts/FancyFonts/YasashisaAntique.otf"
+            "fonts/FancyFonts/MLi-PRC-Bold.ttf"
+        }
+    }
+}
+
+font = {
+    name = "FancyFonts"
+    
+    fontstyle = {
+        style = regular
+        fontfiles = "FancyFonts"
+    }
+    fontstyle = {
+        style = bold
+        fontfiles = "PlayfairDisplay-Bold"
+    }
+    fontstyle = {
+        style = italic
+        fontfiles = "PlayfairDisplay-Italic"
+    }
+}

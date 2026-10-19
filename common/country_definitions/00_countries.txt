@@ -1,0 +1,959 @@
+﻿DTJ = {
+	color = { 47 36 119 }
+
+	country_type = recognized
+
+	tier = empire	
+	
+	cultures = { darthyrian jallentian }
+	capital = STATE_HOME_COUNTIES
+}
+DOE = {
+	color = { 88 62 169 }
+
+	country_type = recognized
+
+	tier = kingdom	
+	
+	cultures = { darthyrian }
+	capital = STATE_LEINSTER
+}
+YAS = {
+	color = { 135 9 79 }
+
+	country_type = recognized
+
+	tier = empire	
+	
+	cultures = { yasarnian }
+	capital = STATE_ILE_DE_FRANCE
+}
+TAR = {
+	color = { 120 69 7 }
+
+	country_type = recognized
+
+	tier = empire	
+	
+	cultures = { tarsinian }
+	capital = STATE_BRANDENBURG
+}
+BAR = {
+	color = { 204 95 41 }
+
+	country_type = recognized
+
+	tier = kingdom	
+	
+	cultures = { tarsinian }
+	capital = STATE_HOLLAND
+}
+VAL = {
+	color = { 21 66 80 }
+
+	country_type = recognized
+
+	tier = empire	
+	
+	cultures = { valurian }
+	capital = STATE_LAZIO
+}
+MAI = {
+	color = { 16 18 61 }
+
+	country_type = recognized
+
+	tier = empire	
+	
+	cultures = { mairythan }
+	capital = STATE_CATALONIA
+}
+ROM = {
+	color = { 133 45 136 }
+
+	country_type = recognized
+
+	tier = principality	
+	
+	cultures = { alireyian }
+	capital = STATE_NEW_CASTILE
+}
+AMA = {
+	color = { 175 84 59 }
+
+	country_type = recognized
+
+	tier = kingdom	
+	
+	cultures = { amarystian }
+	capital = STATE_ESTREMADURA
+}
+ARE = {
+	color = { 161 138 76 }
+
+	country_type = recognized
+
+	tier = principality	
+	
+	cultures = { arehynian }
+	capital = STATE_BASQUE_COUNTRY
+}
+ELA = {
+	color = { 230 35 35 }
+
+	country_type = recognized
+
+	tier = kingdom	
+	
+	cultures = { alireyian }
+	capital = STATE_LOWER_ANDALUSIA
+}
+MUL = {
+	color = { 94 41 31 }
+
+	country_type = recognized
+
+	tier = kingdom	
+	
+	cultures = { kirchian }
+	capital = STATE_STYRIA
+}
+VAC = {
+	color = { 46 94 67 }
+
+	country_type = recognized
+
+	tier = empire	
+	
+	cultures = { valencian }
+	capital = STATE_EASTERN_THRACE
+}
+RAV = {
+	color = { 16 94 27 }
+
+	country_type = recognized
+
+	tier = empire	
+	
+	cultures = { ravavid }
+	capital = STATE_MAZANDARAN
+}
+VAN = {
+	color = { 97 69 103 }
+
+	country_type = recognized
+
+	tier = empire	
+	
+	cultures = { vanhausian }
+	capital = STATE_MOSCOW
+}
+COR = {
+	color = { 0 32 96 }
+
+	country_type = recognized
+
+	tier = empire	
+	
+	cultures = { corvorterian }
+	capital = STATE_MASSACHUSETTS
+}
+MAR = {
+	color = { 79 31 53 }
+
+	country_type = recognized
+
+	tier = kingdom	
+	
+	cultures = { martanian }
+	capital = STATE_GREATER_POLAND
+}
+OST = {
+	color = { 99 39 67 }
+
+	country_type = recognized
+
+	tier = principality	
+	
+	cultures = { martanian }
+	capital = STATE_EAST_PRUSSIA
+}
+KON = {
+	color = { 163 7 47 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { konseistan }
+	capital = STATE_BOSNIA
+}
+MOR = { # Morivacs
+	color = { 129 53 130 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { morivacian }
+	capital = STATE_CENTRAL_HUNGARY
+}
+ALE = { # Alentoria
+	color = { 89 136 207 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { alentorian }
+	capital = STATE_SLOVAKIA
+}
+ARH = { # Arhagronn
+	color = { 28 25 79 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { arhagronnian }
+	capital = STATE_NORTHERN_TRANSYLVANIA
+}
+MAL = { # Malatia
+	color = { 75 67 191 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { malatian }
+	capital = STATE_BOHEMIA
+}
+VYR = { # Vyrikun
+	color = { 11 42 40 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { vyrikunic }
+	capital = STATE_SVEALAND
+}
+MAO = { # Maotanai
+	color = { 24 75 76 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { mao }
+	capital = STATE_OULU
+}
+SEY = { # Seyarsia
+	color = { 35 113 95 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { seyarsi }
+	capital = STATE_UUSIMAA
+}
+ALR = { # Aleria
+	color = { 15 33 40 }
+
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { vyrikunic }
+	capital = STATE_GOTLAND
+}
+MAT = { # Maratorina
+	color = { 23 56 59 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { seyarsi }
+	capital = STATE_EAST_KARELIA
+}
+XYR = { # Xyrnathii
+	color = { 30 34 123 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { xyrnathii }
+	capital = STATE_ICELAND
+}
+######################################################################################### New Section
+KAL = { # Kalud
+	color = { 12 79 23 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { kalud }
+	capital = STATE_FEZ
+}
+KAI = { # Kali
+	color = { 56 56 57 }
+
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { native }
+	capital = STATE_EAST_SAHARA
+}
+YAL = { # Yaletia
+	color = { 133 42 130 }
+
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { yaletian }
+	capital = STATE_LOWER_EGYPT
+}
+BAS = { # Basir Naji
+	color = { 189 18 37 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { ajian }
+	capital = STATE_HAIL
+}
+MIR = { # Miranjia
+	color = { 26 75 79 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { ajian }
+	capital = STATE_NEJD
+}
+MAJ = { # Marjahadina
+	color = { 51 7 43 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { ajian }
+	capital = STATE_HEDJAZ
+}
+DAN = { # Dana
+	color = { 200 193 149 }
+
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { ajian }
+	capital = STATE_NEJD
+}
+BET = { # Betaria
+	color = { 177 23 92 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { marajiyan }
+	capital = STATE_SINDH
+}
+ISK = { # Isketia
+	color = { 156 10 91 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { marajiyan }
+	capital = STATE_GUJARAT
+}
+TAM = { # Tamilia
+	color = { 187 156 36 }
+
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { marajiyan }
+	capital = STATE_HYDERABAD
+}
+MAY = { # Mayari Qethelani
+	color = { 54 133 42 }
+
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { marajiyan }
+	capital = STATE_HYDERABAD
+}
+SEV = { # Seyvanna (Thailand)
+	color = { 14 95 99 }
+
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { seyvannan }
+	capital = STATE_BANGKOK
+}
+SUO = { # Suolongshi
+	color = { 52 12 57 }
+
+	country_type = unrecognized
+
+	tier = empire
+	
+	cultures = { suolongshi }
+	capital = STATE_SHANDONG
+}
+TOU = { # Tounan Merinara
+	color = { 70 15 76 }
+
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { suolongshi }
+	capital = STATE_SICHUAN
+}
+ETA = { # Matfalisha Etanori
+	color = { 87 19 84 }
+
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { suolongshi }
+	capital = STATE_NINGXIA
+}
+QRI = { # Mayari Qri'lanoti
+	color = { 76 17 82 }
+
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { suolongshi }
+	capital = STATE_GANSU
+}
+MRY = { # Mrystavania
+	color = { 67 15 73 }
+
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { suolongshi }
+	capital = STATE_URGA
+}
+SAN = { # Sanotaii
+	color = { 133 154 191 }
+
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { suolongshi }
+	capital = STATE_FORMOSA
+}
+MAS = { # Mayashi-Scorpioka
+	color = { 118 38 34 }
+
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { scorpiokan }
+	capital = STATE_YANGHO
+}
+NOB = { # Totsuii Nobutanii
+	color = { 156 32 88 }
+
+	country_type = unrecognized
+
+	social_hierarchy = edo_system
+
+	tier =	empire
+	
+	cultures = { nobutanii }
+	capital = STATE_KANTO
+}
+SHA = { # Sharn Merynh
+	color = { 197 69 34 }
+
+	country_type = unrecognized
+
+	tier =	kingdom
+	
+	cultures = { sharnic }
+	capital = STATE_ANHAM
+}
+JAM = { # Jamiju
+	color = { 59 165 99 }
+
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { native }
+	capital = STATE_WESTERN_AUSTRALIA
+}
+KOI = { # Konilya
+	color = { 124 168 53 }
+
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { native }
+	capital = STATE_NEW_SOUTH_WALES
+}
+DAM = { # Dameno
+	color = { 214 49 37 }
+
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { native }
+	capital = STATE_EASTERN_NEW_GUINEA
+}
+MOL = { # Morlinu
+	color = { 77 180 206 }
+
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { native }
+	capital = STATE_SOUTH_ISLAND
+}
+BEY = { # Beyet
+	color = { 167 80 25 }
+
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { beyetian }
+	capital = STATE_TURKMENIA
+}
+MOT = { # Mortana
+	color = { 209 123 24 }
+
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { beyetian }
+	capital = STATE_MERZ
+}
+MIA = { # Miratt
+	color = { 209 160 41 }
+
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { beyetian }
+	capital = STATE_TAJIKISTAN
+}
+GOB = { # Gooberia
+	color = { 78 99 52 }
+
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { beyetian }
+	capital = STATE_BALKH
+}
+A00 = { # Taniwa (Ethiopia)
+	color = { 183 157 62 }
+
+	country_type = decentralized
+
+	tier = kingdom
+	
+	cultures = { native }
+}
+A01 = { # Malkata (Kenya)
+	color = { 197 164 51 }
+
+	country_type = decentralized
+
+	tier = kingdom
+	
+	cultures = { native }
+}
+A02 = { # Mesnaga (Tanzania)
+	color = { 195 65 45 }
+
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { native }
+}
+A03 = { # Uoja (Mozambique)
+	color = { 78 131 63 }
+
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { native }
+}
+A04 = { # Kuyita (Zambia)
+	color = { 43 131 54 }
+
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { native }
+}
+A05 = { # Navino (Botswana)
+	color = { 94 192 179 }
+
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { native }
+}
+A06 = { # Opulai (Congo)
+	color = { 201 66 86 }
+
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { native }
+}
+A07 = { # Kitelu (Sudan)
+	color = { 84 136 47 }
+
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { native }
+}
+A08 = { # Tariopa (Gabon)
+	color = { 89 81 147 }
+
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { native }
+}
+A09 = { # Tariopa (Chad)
+	color = { 36 115 170 }
+
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { native }
+}
+A10 = { # Minuka (Tamma)
+	color = { 50 128 118 }
+
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { native }
+}
+A11 = { # Tunlita (West Tamma)
+	color = { 170 139 57 }
+
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { native }
+}
+A12 = { # Tenumaka (Libya)
+	color = { 100 209 56 }
+
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { native }
+}
+A13 = { # Enkarsa (Mauritania)
+	color = { 207 209 56 }
+
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { native }
+}
+VAD = { # Vandalicourt
+	color = { 102 68 133 }
+
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { darthyrian }
+	capital = STATE_RIO_DE_JANEIRO
+}
+AER = { # Aereshina
+	color = { 119 5 37 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { mairythan }
+	capital = STATE_MEXICO
+}
+HAB = { # Habarina
+	color = { 178 35 179 }
+
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { valurian }
+	capital = STATE_HAITI
+}
+ZUJ = { # Zuja
+	color = { 16 18 61 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { mairythan }
+	capital = STATE_WESTERN_CUBA
+}
+MES = { # Meserina
+	color = { 17 123 156 }
+
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { valurian }
+	capital = STATE_SANTO_DOMINGO
+}
+SAR = { # Saragara
+	color = { 17 123 156 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { valurian }
+	capital = STATE_PANAMA
+}
+MAW = { # Maraw
+	color = { 17 123 156 }
+
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { valurian }
+	capital = STATE_GUAYANA
+}
+MER = { # Merelyka
+	color = { 39 126 72 }
+
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { mairythan }
+	capital = STATE_GUATEMALA
+}
+LAV = { # La Valera
+	color = { 53 160 75 }
+
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { mairythan }
+	capital = STATE_GUATEMALA
+}
+MOD = { # Morendec
+	color = { 65 78 197 }
+
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { mairythan }
+	capital = STATE_SAN_SALVADOR
+}
+IRE = { # Ireigo
+	color = { 99 133 237 }
+
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { mairythan }
+	capital = STATE_HONDURAS
+}
+PYR = { # Pyrenna
+	color = { 88 170 237 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { mairythan }
+	capital = STATE_NICARAGUA
+}
+ZEK = { # Zekaria
+	color = { 105 18 18 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { yasarnian }
+	capital = STATE_NICARAGUA
+}
+ZOR = { # Zorisai
+	color = { 118 224 174 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { mairythan }
+	capital = STATE_COSTA_RICA
+}
+MEY = { # Mereyna
+	color = { 98 25 58 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { mairythan }
+	capital = STATE_ANTIOQUIA
+}
+VER = { # New Verenze
+	color = { 63 18 58 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { mairythan }
+	capital = STATE_MIRANDA
+}
+AST = { # Asteria
+	color = { 141 9 9 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { mairythan }
+	capital = STATE_ECUADOR
+}
+ZEY = { # Zeky'har
+	color = { 58 5 18 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { mairythan }
+	capital = STATE_PARA
+}
+YEM = { # Yemero
+	color = { 81 8 25 }
+
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { native }
+	capital = STATE_MATO_GROSSO
+}
+DAR = { # Dargera
+	color = { 207 69 48 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { mairythan }
+	capital = STATE_LIMA
+}
+ISA = { # Isamega
+	color = { 138 132 61 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { mairythan }
+	capital = STATE_LA_PAZ
+}
+POL = { # Poluna
+	color = { 98 130 27 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { amarystian }
+	capital = STATE_BAJO_PARAGUAY
+}
+VAR = { # Varcresse
+	color = { 9 49 35 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { amarystian }
+	capital = STATE_CHACO
+}
+DOR = { # Dorcarra
+	color = { 15 81 58 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { amarystian }
+	capital = STATE_BUENOS_AIRES
+}
+COE = { # Correndina
+	color = { 184 22 46 }
+
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { mairythan }
+	capital = STATE_LOS_RIOS
+}

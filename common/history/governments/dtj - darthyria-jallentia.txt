@@ -1,0 +1,11 @@
+﻿GOVERNMENT = {
+	c:DTJ ?= {
+		if = {
+			limit = { exists = py:conservative_party }
+			py:free_trade_party = {
+				set_ruling_party = yes
+				add_momentum = momentum_large # To weight the historical election in their favor
+			}				
+		}	
+	}
+}
