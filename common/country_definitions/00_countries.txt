@@ -499,7 +499,7 @@ SHA = { # Sharn Merynh
 	tier =	kingdom
 	
 	cultures = { sharnic }
-	capital = STATE_ANHAM
+	capital = STATE_ANNAM
 }
 JAM = { # Jamiju
 	color = { 59 165 99 }

@@ -61,6 +61,16 @@ YAS = { # Yasarnia
 			}
 		}
 	}
+	flag_definition = {
+		coa = YAS_maraneiist
+		priority = 30
+		trigger = {
+			scope:actor ?= {
+				THIS = c:YAS
+				has_law = law_type:law_council_republic
+			}
+		}
+	}
 }
 REPLACE:TAR = { # Tarsina
 	flag_definition = {

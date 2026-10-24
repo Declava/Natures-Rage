@@ -22,6 +22,12 @@ YAS_monarchy = { # Yasarnian Monarchy
 		instance = { scale = { 1 1 } position = { 0.5 0.5 } rotation = 0 }
 	}		
 }
+YAS_maraneiist = { # Maraneiist Yasarnia
+	textured_emblem = {
+		texture = "yasarnia_maraneiist_coa.png"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } rotation = 0 }
+	}		
+}
 TAR = {	# Tarsina
 	textured_emblem = {
 		texture = "tarsina_coa.png"
@@ -82,12 +88,12 @@ VAC = {	# Valence
 		instance = { scale = { 1 1 } position = { 0.5 0.5 } rotation = 0 }
 	}		
 }
-RAV = {	# Ravavid
-	textured_emblem = {
-		texture = "ravavid_coa.png"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } rotation = 0 }
-	}		
-}
+#RAV = {	# Ravavid
+#	textured_emblem = {
+#		texture = "ravavid_coa.png"
+#		instance = { scale = { 1 1 } position = { 0.5 0.5 } rotation = 0 }
+#	}		
+#}
 VAN = {	# Vanhäus
 	textured_emblem = {
 		texture = "vanhaus_coa.png"
@@ -106,76 +112,10 @@ MAR = {	# Martania
 		instance = { scale = { 1 1 } position = { 0.5 0.5 } rotation = 0 }
 	}		
 }
-OST = {	# Ostrau
-	textured_emblem = {
-		texture = "ostrau_coa.png"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } rotation = 0 }
-	}		
-}
-KON = {	# Konšeišta
-	textured_emblem = {
-		texture = "konseista_coa.png"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } rotation = 0 }
-	}		
-}
-MOR = {	# Morivacs
-	textured_emblem = {
-		texture = "morivacs_coa.png"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } rotation = 0 }
-	}		
-}
-ALE = {	# Alentoria
-	textured_emblem = {
-		texture = "alentoria_coa.png"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } rotation = 0 }
-	}		
-}
-ARH = {	# Arhagronn
-	textured_emblem = {
-		texture = "arhagronn_coa.png"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } rotation = 0 }
-	}		
-}
-MAL = {	# Malatia
-	textured_emblem = {
-		texture = "malatia_coa.png"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } rotation = 0 }
-	}		
-}
-VYR = {	# Vyrikun
-	textured_emblem = {
-		texture = "vyrikun_coa.png"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } rotation = 0 }
-	}		
-}
-MAO = {	# Maotanai
-	textured_emblem = {
-		texture = "maotanai_coa.png"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } rotation = 0 }
-	}		
-}
-SEY = {	# Seyarsia
-	textured_emblem = {
-		texture = "seyarsia_coa.png"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } rotation = 0 }
-	}		
-}
-ALR = {	# Aleria
-	textured_emblem = {
-		texture = "aleria_coa.png"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } rotation = 0 }
-	}		
-}
-MAT = {	# Maratorina
-	textured_emblem = {
-		texture = "maratorina_coa.png"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } rotation = 0 }
-	}		
-}
-XYR = {	# Xyrnathii
-	textured_emblem = {
-		texture = "xyrnathii_coa.png"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } rotation = 0 }
-	}		
-}
 #### New Section
+NOB = {	# Totsuii Nobutanii
+	textured_emblem = {
+		texture = "totsuii_nobutanii_coa.png"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } rotation = 0 }
+	}		
+}

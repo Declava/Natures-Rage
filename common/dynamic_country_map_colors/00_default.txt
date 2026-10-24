@@ -27,3 +27,11 @@ yas_monarchy = { # Second Kingdom of Yasarnia
 		}
 	}
 }
+yas_maraneiist = { # Maraneiist Republic of Yasarnia
+	color = "maraneiist_yasarnia_red"
+
+	possible = {
+		c:YAS ?= THIS
+		has_law = law_type:law_council_republic
+	}
+}

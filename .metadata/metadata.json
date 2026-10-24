@@ -1,9 +1,9 @@
 {
   "name" : "Nature's Rage",
-  "id" : "",
+  "id" : "com.github.Natures-Rage",
   "version" : "0.2 Athénaura",
   "supported_game_version" : "1.13.*",
-  "short_description" : "",
+  "short_description" : "Adaptation of the Nature's Rage RP as a total conversion mod for Victoria 3.",
   "tags" : [],
   "relationships" : [],
   "game_custom_data" : {

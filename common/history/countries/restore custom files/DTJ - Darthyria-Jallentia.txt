@@ -21,25 +21,35 @@
 		add_taxed_goods = g:tea
 
 		# Laws 
+
+		# Power Structure
 		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_wealth_voting
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_women_own_property
-		activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_appointed_bureaucrats
-		activate_law = law_type:law_right_of_assembly
 		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_protectionism
-		activate_law = law_type:law_laissez_faire
-		activate_law = law_type:law_public_schools
-		activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_colonial_exploitation
-		activate_law = law_type:law_poor_laws
-		activate_law = law_type:law_private_health_insurance
-		activate_law = law_type:law_dedicated_police
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_appointed_bureaucrats
 		activate_law = law_type:law_professional_army
 		activate_law = law_type:law_professional_navy
-		activate_law = law_type:law_commercialized_agriculture # enclosure acts
+		activate_law = law_type:law_no_home_affairs
+		# Economy
+		activate_law = law_type:law_laissez_faire
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_per_capita_based_taxation	
+		activate_law = law_type:law_commercialized_agriculture
+		activate_law = law_type:law_colonial_exploitation
+		activate_law = law_type:law_dedicated_police		
+		activate_law = law_type:law_public_schools		
+		activate_law = law_type:law_private_health_insurance				
+		# Human Rights
+		activate_law = law_type:law_right_of_assembly		
+		activate_law = law_type:law_no_workers_rights
+		activate_law = law_type:law_child_labor_allowed
+		activate_law = law_type:law_women_own_property		
+		activate_law = law_type:law_poor_laws
+		activate_law = law_type:law_no_migration_controls
+		activate_law = law_type:law_slavery_banned
+		activate_law = law_type:law_poor_laws
+		activate_law = law_type:law_combination_acts
 		
 		set_institution_investment_level = {
 			institution = institution_colonial_affairs
