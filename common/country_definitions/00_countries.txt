@@ -662,7 +662,7 @@ A08 = { # Tariopa (Gabon)
 	
 	cultures = { native }
 }
-A09 = { # Tariopa (Chad)
+A09 = { # Darika (Chad)
 	color = { 36 115 170 }
 
 	country_type = decentralized

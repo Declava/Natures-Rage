@@ -6865,12 +6865,14 @@
 				building="building_textile_mill"
 				add_ownership = {
 					
+					
 					building = {
 						type = "building_financial_district"
 						country = "c:TAR"
 						levels = 2
 						region = "STATE_MORAVIA"
 					}
+					
 					
 					building = {
 						type = "building_financial_district"
@@ -6886,6 +6888,7 @@
 				building="building_vineyard"
 				add_ownership = {
 					
+					
 					building = {
 						type = "building_manor_house"
 						country = "c:TAR"
@@ -6897,6 +6900,7 @@
 			create_building={
 				building="building_food_industry"
 				add_ownership = {
+					
 					
 					building = {
 						type = "building_financial_district"
@@ -6912,12 +6916,14 @@
 				building="building_logging_camp"
 				add_ownership = {
 					
+					
 					building = {
 						type = "building_manor_house"
 						country = "c:TAR"
 						levels = 2
 						region = "STATE_MORAVIA"
 					}
+					
 					
 					building = {
 						type = "building_manor_house"
@@ -6933,6 +6939,7 @@
 				building="building_wheat_farm"
 				add_ownership = {
 					
+					
 					building = {
 						type = "building_manor_house"
 						country = "c:TAR"
@@ -6946,6 +6953,7 @@
 			create_building={
 				building="building_coal_mine"
 				add_ownership = {
+					
 					
 					building = {
 						type = "building_financial_district"

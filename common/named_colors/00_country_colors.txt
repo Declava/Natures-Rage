@@ -1,0 +1,4 @@
+﻿colors = {
+	cons_monarchist_yasarnian_blue = rgb {	22 23 79 }
+	monarchist_yasarnian_yellow = rgb { 197 170 117 }
+}

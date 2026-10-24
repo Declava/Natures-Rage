@@ -1,7 +1,26 @@
 ﻿NMapName = {
-	NAME_DRAW_DISTANCE = 3500.0
+	NAME_DRAW_DISTANCE = 7000.0
 	NAME_FONT_NAME = "FancyFonts"
 	MAX_OPACITY = 0.85
+
+	ZOOM_STEPS_VISIBLE_SCALES = {
+		0.0 0.0       # 0
+		0.0 0.0       # 1
+		0.0 0.0       # 2
+		0.0 0.0       # 3
+		0.0 0.05      # 4
+		0.0 0.1       # 5
+		0.0 0.2       # 6
+		0.0 20.0  # 7  Terrain map
+		0.0 20.0  # 8
+		0.0 20.0  # 9
+		0.0 20.0  # 10 Flatmap
+		0.0 20.0  # 11
+		0.0 20.0  # 12
+		0.0 20.0  # 13 No 2D UI on Map
+		0.0 20.0  # 14
+		0.0 20.0  # 15
+	}
 }
 
 NJominiMapGraphics = {
