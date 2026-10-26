@@ -128,82 +128,89 @@
 		}
 	}
 	s:STATE_SYRIA={
-		region_state:VAC={
+		region_state:BAS={
 			create_building={
 				building="building_government_administration"
-				add_ownership={
-					country={
-						country="c:VAC"
-						levels=3
-					}
+				add_ownership = {
+					country = { country = "c:BAS" levels = 3 }
 				}
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
+			
 			}
 			create_building={
 				building="building_trade_center"
 				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
-				add_ownership={
-					building={
-						type="building_trade_center"
-						country="c:VAC"
-						levels=1
-						region="STATE_SYRIA"
+				add_ownership = {
+					
+					building = {
+						type = "building_financial_district"
+						country = "c:BAS"
+						levels = 1
+						region = "STATE_SYRIA"
 					}
 				}
 				reserves=1
 			}
 			create_building={
 				building="building_glassworks"
-				add_ownership={
-					building={
-						type="building_glassworks"
-						country="c:VAC"
-						levels=1
-						region="STATE_SYRIA"
+				add_ownership = {
+					
+					building = {
+						type = "building_financial_district"
+						country = "c:BAS"
+						levels = 1
+						region = "STATE_SYRIA"
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_forest_glass"  "pm_manual_glassblowing" "pm_ceramics" }
+			
 			}
 			create_building={
 				building="building_textile_mill"
-				add_ownership={
-					building={
-						type="building_textile_mill"
-						country="c:VAC"
-						levels=1
-						region="STATE_SYRIA"
+				add_ownership = {
+					
+					building = {
+						type = "building_financial_district"
+						country = "c:BAS"
+						levels = 1
+						region = "STATE_SYRIA"
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms"  }
+			
 			}
 			create_building={
 				building="building_millet_farm"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:VAC"
-						levels=2
-						region="STATE_SYRIA"
+				add_ownership = {
+					
+					building = {
+						type = "building_manor_house"
+						country = "c:BAS"
+						levels = 2
+						region = "STATE_SYRIA"
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_fig_orchards" "pm_tools_disabled"  }
+			
 			}
 			create_building={
 				building="building_tobacco_plantation"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:VAC"
-						levels=2
-						region="STATE_SYRIA"
+				add_ownership = {
+					
+					building = {
+						type = "building_manor_house"
+						country = "c:BAS"
+						levels = 2
+						region = "STATE_SYRIA"
 					}
 				}
 				reserves=1
 				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
+			
 			}
 		}
 	}
