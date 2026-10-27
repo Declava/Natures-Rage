@@ -6,8 +6,11 @@
  ideology_cattronian:0 "Cattronian"
  ideology_cattronian_desc:0 "#lore This leader advocates for free market Battengori economics and believes authoritarian rule by the elite and traditional social policies are best for the country.#!"
 
- ideology_gaianist:0 "Gaianist"
- ideology_gaianist_desc:0 "#lore This leader advocates for the preservation of nature and total abolition of industry alongside a return to a more primitive and decentralised form of governance.#!"
+ ideology_anarcho_naturaist:0 "Gaianist"
+ ideology_anarcho_naturaist_desc:0 "#lore This leader advocates for the preservation of nature and total abolition of industry alongside a return to a more primitive and decentralised form of governance, along more modernist lines. As adherents to Naturaism, they believe that the Goddess is punishing them for their overindustrialization and drainage of the Earth's resources.#!"
+
+ ideology_vanguard_naturaist:0 "Gaianist"
+ ideology_anarcho_naturaist_desc:0 "#lore This leader advocates for the preservation of nature and total abolition of industry alongside a return to a more primitive and decentralised form of governance, but generally from a more fundamentalist line of thinking. They advocate for a strong government to cleanse the country of "infidels" and those they deem impure, alongside as military conquest and expansionism to spread their ideology and serve as the Goddess' "sword" to punish the world. As adherents to Naturaism, they believe that the Goddess is punishing them for their overindustrialization and drainage of the Earth's resources.#!"
 
  ideology_laissez_faire:0 "Battengori"
  ideology_laissez_faire_desc:0 "#lore This group believes in the free flow of trade and labor forces, favoring the judgment of markets over that of governments.#!"
