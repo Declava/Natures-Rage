@@ -32,7 +32,7 @@ To rename city names with your own ones from the RP or new original names, head 
 ### Adding Flavour Text
 To add flavour text for your country (the lore text you see for countries in the country selection screen) head over to **localization/english/country_flavor_text_l_english.yml** and find your country's tag then start writing. If you don't know what three-letter tag it has, ask me.
 ### Adding Ideologies
-To add original ideologies, head over to **common/history/ideologies/nr_leader_ideologies.txt** and follow the format.
+To add original ideologies, head over to **common/ideologies/nr_leader_ideologies.txt** and follow the format.
 
 Example Format:
 ```
