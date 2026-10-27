@@ -229,28 +229,61 @@ ideology_cattronian = {
 	#	}
 	#}	
 }
-ideology_gaianist = {
+ideology_anarcho_naturaism = { 
+# Gaianism will be renamed to Naturaism, spawns mainly in Martanitan countries from the idea that their "Goddess" is punishing them for various 'sins'; fundamentalist version of it. Anarcho-Naturaism combines Naturaist fundamentalism with left-wing and anarchist thought. It stands opposed to Vanguardist Naturaism, which is right-wing.
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_luddite.dds"
 	
 	character_ideology = yes
 	
 	lawgroup_governance_principles = {
-		law_council_republic = approve
-		law_chiefdom = strongly_approve
-	}
+		law_theocracy = approve
+		law_council_republic = strongly_approve
+}
 
 	lawgroup_distribution_of_power = {
 		law_technocracy = strongly_disapprove
-		law_elder_council = approve
+		law_universal_suffrage = approve
 		law_anarchy = strongly_approve
 	}
 
 	lawgroup_church_and_state = {
 		law_state_atheism = strongly_disapprove
+		law_state_religion = strongly_approve
 	}
 
 	lawgroup_economic_system = {
-		law_traditionalism = strongly_approve
+		law_interventionism = strongly_disapprove
+		law_agrarianism = approve
+		law_industry_banned = strongly_approve
+		law_extraction_economy = strongly_disapprove
+		law_laissez_faire = strongly_disapprove
+		law_cooperative_ownership = disapprove
+		law_command_economy = strongly_disapprove
+	}
+}
+
+ideology_vanguard_naturaism = { 
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_luddite.dds"
+	
+	character_ideology = yes
+	
+	lawgroup_governance_principles = {
+		law_theocracy = strongly_approve
+		law_monarchy = approve
+}
+
+	lawgroup_distribution_of_power = {
+		law_technocracy = strongly_disapprove
+		law_single_party_state = strongly_approve
+		law_autocracy = strongly_approve
+	}
+
+	lawgroup_church_and_state = {
+		law_state_atheism = strongly_disapprove
+		law_state_religion = strongly_approve
+	}
+
+	lawgroup_economic_system = {
 		law_interventionism = strongly_disapprove
 		law_agrarianism = approve
 		law_industry_banned = strongly_approve
