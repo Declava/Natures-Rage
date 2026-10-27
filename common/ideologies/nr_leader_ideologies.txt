@@ -272,6 +272,13 @@ ideology_vanguard_naturaism = {
 		law_monarchy = approve
 }
 
+	lawgroup_citizenship = {
+		law_ethnostate = strongly_approve
+		law_national_supremacy = approve
+		law_cultural_exclusion = strongly_disapprove
+		law_multicultural = strongly_disapprove
+	}
+
 	lawgroup_distribution_of_power = {
 		law_technocracy = strongly_disapprove
 		law_single_party_state = strongly_approve
