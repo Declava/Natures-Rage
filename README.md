@@ -28,7 +28,7 @@ Example Format:
 	}
 ```
 ### Adding City Names
-To rename city names with your own ones from the RP or new original names, head over to localization/english/hub_names_l_english.yml and then find the city you want to rename using Ctrl+F.
+To rename city names with your own ones from the RP or new original names, head over to **localization/english/hub_names_l_english.yml** and then find the city you want to rename using Ctrl+F.
 ### Adding Flavour Text
 To add flavour text for your country (the lore text you see for countries in the country selection screen) head over to **localization/english/country_flavor_text_l_english.yml** and find your country's tag then start writing. If you don't know what three-letter tag it has, ask me.
 ### Adding Ideologies
