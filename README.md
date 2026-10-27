@@ -20,7 +20,7 @@ Example Format:
 	s:STATE_SAVOY = { # Incase you don't know what state your given location is part of, just ask me or let me correct the code once I'm notified of the change.
 		region_state:TAR = { # Replace the tag for Tarsina "TAR" with the tag for the country you want to add the pops to.
 			create_pop = {
-              		 		 religion = darmonist
+              		 religion = darmonist
 				culture = tarsinian
 				size = 6767676767
 			}
