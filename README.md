@@ -1,7 +1,7 @@
 # Nature's Rage
 **Nature's Rage** (NR) is an adaptation of the Nature's Rage RP as a total conversion mod for Victoria 3.
 ## Installation Guide
-To download the NR mod, simply click the green "Code" button then click "Download ZIP". Once downloaded, extract the .zip file into C:\Users\yourusernamehere\Documents\Paradox Interactive\Victoria 3\mod and then add the mod to the playset you have enabled in the launcher.
+To download the NR mod, simply click the green "Code" button then click "Download ZIP". Once downloaded, extract the .zip file into **C:\Users\yourusernamehere\Documents\Paradox Interactive\Victoria 3\mod** and then add the mod to the playset you have enabled in the launcher.
 ### Install for use with VSCode and Git
 If you want to use VSCode to contribute to the project instead of directly using the GitHub page, [install Git](https://git-scm.com/install/windows) and run "git clone https://github.com/Declava/Natures-Rage.git" in Command Prompt then open the resulting NR mod folder in VSCode, doing so should automatically enable the Source Control feature to allow you to easily push your changes to the GitHub repository.
 ## Contributor Guide
@@ -11,9 +11,9 @@ To add any flags that are missing for certain countries in the mod, you must nam
 
 Usually there are a few more steps to actually implement the flag ingame, but I'll handle those.
 ### Adding Laws
-To add or correct any laws for countries in the mod, head on over to common/history/countries and find the country file with the laws you want to change. For example, you can type "activate_law = law_type:law_private_health_insurance" to add private healthcare as a law for your country.
+To add or correct any laws for countries in the mod, head on over to **common/history/countries** and find the country file with the laws you want to change. For example, you can type "activate_law = law_type:law_private_health_insurance" to add private healthcare as a law for your country.
 ### Adding Pops
-Accurate representations of national populations from the Nature's Rage RP are currently beyond the scope of the mod, but you are free to make them yourself by heading into common/history/pops and selecting (or creating if missing) the region file where you are adding the pops. Below is a simple format for adding your pops:
+Accurate representations of national populations from the Nature's Rage RP are currently beyond the scope of the mod, but you are free to make them yourself by heading into **common/history/pops** and selecting (or creating if missing) the region file where you are adding the pops. Below is a simple format for adding your pops:
 
 Example Format:
 ```
@@ -30,9 +30,9 @@ Example Format:
 ### Adding City Names
 To rename city names with your own ones from the RP or new original names, head over to localization/english/hub_names_l_english.yml and then find the city you want to rename using Ctrl+F.
 ### Adding Flavour Text
-To add flavour text for your country (the lore text you see for countries in the country selection screen) head over to localization/english/country_flavor_text_l_english.yml and find your country's tag then start writing. If you don't know what three-letter tag it has, ask me.
+To add flavour text for your country (the lore text you see for countries in the country selection screen) head over to **localization/english/country_flavor_text_l_english.yml** and find your country's tag then start writing. If you don't know what three-letter tag it has, ask me.
 ### Adding Ideologies
-To add original ideologies, head over to common/history/ideologies/nr_leader_ideologies.txt and follow the format.
+To add original ideologies, head over to **common/history/ideologies/nr_leader_ideologies.txt** and follow the format.
 
 Example Format:
 ```
@@ -49,3 +49,5 @@ ideology_example = {
 	}
 }
 ```
+### Adding anything else
+For adding anything else, you can suggest to me what you want added, send me graphical assets like flags, or try to implement it yourself by familiarising yourself with the structure of the mod and looking for the area of the game to modify.
