@@ -229,7 +229,7 @@ ideology_cattronian = {
 	#	}
 	#}	
 }
-ideology_anarcho_naturaism = { 
+ideology_anarcho_naturaist = { 
 # Gaianism will be renamed to Naturaism, spawns mainly in Martanitan countries from the idea that their "Goddess" is punishing them for various 'sins'; fundamentalist version of it. Anarcho-Naturaism combines Naturaist fundamentalism with left-wing and anarchist thought. It stands opposed to Vanguardist Naturaism, which is right-wing.
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_luddite.dds"
 	
@@ -262,7 +262,7 @@ ideology_anarcho_naturaism = {
 	}
 }
 
-ideology_vanguard_naturaism = { 
+ideology_vanguard_naturaist = { 
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_luddite.dds"
 	
 	character_ideology = yes
