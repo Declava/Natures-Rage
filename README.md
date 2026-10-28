@@ -70,7 +70,7 @@ To add new characters, first you need to **common/history/characters** and selec
 			female = no
 			religion = rel:darmonist
 			interest_group = ig_industrialists
-			ideology = ideology_market_liberal # For a list of possible ideologies, head to common/ideologies in the vanilla game files.
+			ideology = ideology_market_liberal # For a list of possible ideologies, head to common/ideologies in the vanilla game files or the mod files if you want custom ideologies.
 			traits = {
 				ambitious # For a list of possible traits, head to common/character_traits in the vanilla game files.
 			}
