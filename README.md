@@ -53,5 +53,38 @@ ideology_example = {
 ```
 
 To localize your ideologies with names and descriptions, head over to **localization/english/laws_l_english.yml**.
+### Adding Characters
+To add new characters, first you need to **common/history/characters** and select the country you want to make a character for or create it yourself if the country you are selecting doesn't have any characters yet. Next you need to use this format below:
+```
+		create_character = {
+		# John Character of Country
+			first_name = "john_character_first_name" # First and last name is defined in localization/english/nr_characters_l_english.yml
+			last_name = "john_character_last_name"
+			ruler = yes
+			ig_leader = no # "ig" means Interest Group
+			noble = yes
+			historical = yes
+			age = 18
+			dna = dna_john_character # "dna" is for an optional custom character appearance which can be created in common/dna_data. It is recommended to use the portrait editor ingame to generate this dna data by running "portrait_editor" in the console with debug mode enabled.
+			culture = cu:tarsinian # For a list of possible cultures, head to common/cultures/zz_nr_cultures.txt in the mod files.
+			female = no
+			religion = rel:darmonist
+			interest_group = ig_industrialists
+			ideology = ideology_market_liberal # For a list of possible ideologies, head to common/ideologies in the vanilla game files.
+			traits = {
+				ambitious # For a list of possible traits, head to common/character_traits in the vanilla game files.
+			}
+			commander_usage = { # Do not add this section if not a commander.
+				country_trigger = {
+					c:TAR ?= THIS # Replace the tag for Tarsina "TAR" with the tag for your country
+				}
+				role = general
+				earliest_usage_date = 1852.1.1
+				latest_usage_date = 6767.1.1
+			}
+			commander_rank = default
+			home_region = STATE_BRANDENBURG
+		}
+```
 ### Adding anything else
 For adding anything else, you can suggest to me what you want added, send me graphical assets I can use for stuff, or try to implement it yourself by familiarising yourself with the structure of the mod and looking for the area of the game to modify.
