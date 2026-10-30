@@ -1,0 +1,16 @@
+﻿KYA = {
+	dynamic_country_name = {
+		name = dyn_c_independent_kyarestaria
+		adjective = KYA_ADJ
+
+		is_main_tag_only = yes
+		priority = 10
+
+		trigger = {
+			scope:actor ?= {
+				THIS = c:KYA
+				NOR { overlord = c:YAS }
+			}
+		}
+	}
+}

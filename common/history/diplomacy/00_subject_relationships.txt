@@ -20,4 +20,30 @@
 	c:MAR ?= {
 		create_diplomatic_pact = { country = c:OST type = protectorate }
 	}	
+	c:YAS ?= {
+		create_diplomatic_pact = {
+			country = c:KYA # Kyarestaria Loratartha
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:TER # Terarinaja
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:DEK # Dekontia
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:DOT # Vattin Dorothyna
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:TEM # Temarine Principalities
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:KYE # Kyerthano Majora
+			type = colony
+		}
+	}
 }

@@ -957,3 +957,23 @@ COE = { # Correndina
 	cultures = { mairythan }
 	capital = STATE_LOS_RIOS
 }
+KYA = { # Kyarestaria Loratartha
+	color = { 130 25 156 }
+
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { yasarnian }
+	capital = STATE_QUEBEC
+}
+KYE = { # Kyerthano Majora
+	color = { 157 123 41 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { yasarnian }
+	capital = STATE_ORAN
+}

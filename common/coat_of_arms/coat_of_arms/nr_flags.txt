@@ -119,3 +119,15 @@ NOB = {	# Totsuii Nobutanii
 		instance = { scale = { 1 1 } position = { 0.5 0.5 } rotation = 0 }
 	}		
 }
+KYA = {	# Independent Kyarestaria
+	textured_emblem = {
+		texture = "kyarestaria_coa.png"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } rotation = 0 }
+	}		
+}
+KYA_yasarnian_subject = { # Kyarestaria Loratartha
+	textured_emblem = {
+		texture = "kyarestaria_yasarnian_subject_coa.png"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } rotation = 0 }
+	}		
+}

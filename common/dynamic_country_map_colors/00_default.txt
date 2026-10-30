@@ -28,7 +28,7 @@ yas_monarchy = { # Second Kingdom of Yasarnia
 	}
 }
 yas_maraneiist = { # Maraneiist Republic of Yasarnia
-	color = "maraneiist_yasarnia_red"
+	color = "maraneiist_yasarnian_red"
 
 	possible = {
 		c:YAS ?= THIS

@@ -1,0 +1,36 @@
+﻿DIPLOMATIC_PLAYS = {
+	c:KYE ?= {
+		create_diplomatic_play = {
+			name = kali_war
+
+			target_state = s:STATE_SAHARA.region_state:KAI
+
+			war = yes
+
+			type = dp_annex_war
+
+			add_initiator_backers = { c:YAS }
+			
+			add_war_goal = {
+				holder = c:KAI
+				type = conquer_state
+				target_state = s:STATE_INNER_MOROCCO.region_state:KYE
+			}
+			add_war_goal = {
+				holder = c:KAI
+				type = conquer_state
+				target_state = s:STATE_ORAN.region_state:KYE
+			}
+			add_war_goal = {
+				holder = c:KAI
+				type = conquer_state
+				target_state = s:STATE_ALGIERS.region_state:KYE
+			}
+			add_war_goal = {
+				holder = c:KAI
+				type = conquer_state
+				target_state = s:STATE_CONSTANTINE.region_state:KYE
+			}
+		}
+	}
+}

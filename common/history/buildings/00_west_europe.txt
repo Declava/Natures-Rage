@@ -10188,6 +10188,7 @@
 				building="building_wheat_farm"
 				add_ownership = {
 					
+					
 					building = {
 						type = "building_manor_house"
 						country = "c:YAS"
@@ -10202,12 +10203,14 @@
 				building="building_vineyard"
 				add_ownership = {
 					
+					
 					building = {
 						type = "building_manor_house"
 						country = "c:YAS"
 						levels = 1
 						region = "STATE_MAINE_ANJOU"
 					}
+					
 					
 					building = {
 						type = "building_manor_house"
@@ -10223,6 +10226,7 @@
 				building="building_livestock_ranch"
 				add_ownership = {
 					
+					
 					building = {
 						type = "building_manor_house"
 						country = "c:YAS"
@@ -10236,6 +10240,7 @@
 			create_building={
 				building="building_logging_camp"
 				add_ownership = {
+					
 					
 					building = {
 						type = "building_manor_house"
