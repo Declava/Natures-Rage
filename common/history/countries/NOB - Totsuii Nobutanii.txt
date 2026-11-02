@@ -1,6 +1,88 @@
 ﻿COUNTRIES = {
 	c:NOB ?= {
-		effect_starting_technology_tier_2_tech = yes
-		effect_starting_politics_conservative = yes
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+
+		ig:ig_devout = {
+			add_ruling_interest_group = yes
+		}
+		
+		effect_starting_technology_tier_4_tech = yes
+
+		add_technology_researched = academia
+		add_technology_researched = urban_planning
+		add_technology_researched = centralization
+		add_technology_researched = law_enforcement
+		add_technology_researched = colonization
+		add_technology_researched = sericulture
+
+		set_tax_level = medium
+		
+		add_taxed_goods = g:wine
+		add_taxed_goods = g:luxury_clothes
+		add_taxed_goods = g:luxury_furniture
+
+		# Laws
+
+		# Power Structure
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_oligarchy
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_intermediate_edo_system
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_hereditary_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_professional_navy
+		activate_law = law_type:law_no_home_affairs
+		# Economy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_sakoku
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_serfdom
+		activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_no_health_system
+		# Human Rights
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_no_workers_rights
+		activate_law = law_type:law_child_labor_allowed
+		activate_law = law_type:law_no_womens_rights
+		activate_law = law_type:law_no_social_security
+		activate_law = law_type:law_closed_borders
+		activate_law = law_type:law_slavery_banned
+		activate_law = law_type:law_combination_acts
+
+		if = {
+			limit = {
+				has_dlc_feature = ep2_content
+			}
+			add_journal_entry = {
+				type = je_sakoku
+			}
+			add_journal_entry = {
+				type = je_tenpo_crisis
+			}
+			trigger_event = {
+				id = tenpo_events.1
+				days = 1
+				popup = yes
+			}
+			set_variable = ryukyu_rival_member
+			every_scope_state = {
+				limit = {
+					is_in_geographic_region = geographic_region_honshu
+				}
+				add_devastation = 5
+				state_region = {
+					start_harvest_condition_with_params = {
+						type = torrential_rains
+						duration = 720
+						intensity = 5
+					}
+				}
+			}
+		}
 	}
 }
