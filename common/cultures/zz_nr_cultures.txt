@@ -3955,3 +3955,60 @@ beyetian={
 	graphics = arabic
 	seal_and_signature_texture = "gfx/interface/diplomatic_treaties/seal_and_signature_cultures/diplomatic_treaties_seal_and_signature_ottoman.dds"
 }
+dorothynan={
+	color= hsv{ 0.92 0.49 0.60 }
+	religion = catholic
+	heritage = heritage_insulindian
+	language = language_malay
+	traditions = { }
+	male_common_first_names = {
+		Abul Abdurrahman Ahmad Amir Anom Arifin
+		Bambang
+		Cirebon
+		Haji Hasyim
+		Karijosoedarmo
+		Muhammad Muhammad_Hasyim Muhieddin Marpuah
+		Ngabdurohman
+		Panembahan
+		Safiuddin Sarip Slamet Solikin Soegija Soeharto Soekarno
+		Zainul
+	}
+	female_common_first_names = {
+		Megawati
+		Siti Soimah Sunarti Soepiah
+		Tatiek
+		Yayuk
+	}
+	noble_last_names = {
+		Cakraningrat
+		Djajadiningrat Djojohadikusumo
+		Hamengkubuwono
+		Notomidjojo
+		Pakualaman
+		Soerjowinoto Sastrowardoyo
+	}
+	common_last_names = {
+		Akbaruddin Alaeddin
+		Djalaluddin
+		Emiruddin
+		Khairuddin
+		Mufakhir Muttakin
+		Natadiningrat Nurus
+		Salihin Sepuh
+		Tajul
+	}
+	male_regal_first_names = {
+		Antasena
+		Duksina Dorodjatun
+		Gathot_Menol
+		Ibnu_Jarot
+		Kuseini
+		Malikis_Solikin Mustojo Murtejo
+		Sapardan Sugandi Sundoro Surojo Sujana Sujadi Subadya Sayyidin_Malikul_Kusna
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = east_asian
+	seal_and_signature_texture = "gfx/interface/diplomatic_treaties/seal_and_signature_cultures/diplomatic_treaties_seal_and_signature_southeast_asian.dds"
+}

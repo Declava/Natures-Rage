@@ -4,8 +4,6 @@
 			country = c:DOE
 			type = dominion
 		}
-	}
-	c:DTJ ?= {
 		every_subject_or_below = {
 			 set_relations = { country = c:DTJ value = 50 }
 			 add_liberty_desire = -20
@@ -44,6 +42,32 @@
 		create_diplomatic_pact = {
 			country = c:KYE # Kyerthano Majora
 			type = colony
+		}
+		create_diplomatic_pact = {
+			country = c:BET # Betaria
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:ISK # Isketia
+			type = protectorate
+		}
+	}
+	c:VAL ?= {
+		create_diplomatic_pact = {
+			country = c:MAW
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:SAR
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:MES
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:DER
+			type = dominion
 		}
 	}
 }

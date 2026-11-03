@@ -425,6 +425,7 @@
 				building = "building_logging_camp"
 				add_ownership = {
 					
+					
 					building = {
 						type = "building_manor_house"
 						country = "c:DTJ"
@@ -452,6 +453,7 @@
 				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
 				add_ownership = {
 					
+					
 					building = {
 						type = "building_financial_district"
 						country = "c:DTJ"
@@ -476,6 +478,7 @@
 				building = "building_textile_mill"
 				add_ownership = {
 					
+					
 					building = {
 						type = "building_financial_district"
 						country = "c:DTJ"
@@ -490,12 +493,14 @@
 				building = "building_tobacco_plantation"
 				add_ownership = {
 					
+					
 					building = {
 						type = "building_manor_house"
 						country = "c:DTJ"
 						levels = 1
 						region = "STATE_CIRCARS"
 					}
+					
 					
 					building = {
 						type = "building_manor_house"
@@ -511,12 +516,14 @@
 				building = "building_cotton_plantation"
 				add_ownership = {
 					
+					
 					building = {
 						type = "building_manor_house"
 						country = "c:DTJ"
 						levels = 1
 						region = "STATE_CIRCARS"
 					}
+					
 					
 					building = {
 						type = "building_manor_house"
@@ -532,6 +539,7 @@
 				building="building_banana_plantation"
 				add_ownership = {
 					
+					
 					building = {
 						type = "building_financial_district"
 						country = "c:DTJ"
@@ -546,12 +554,14 @@
 				building = "building_sugar_plantation"
 				add_ownership = {
 					
+					
 					building = {
 						type = "building_manor_house"
 						country = "c:DTJ"
 						levels = 1
 						region = "STATE_CIRCARS"
 					}
+					
 					
 					building = {
 						type = "building_manor_house"

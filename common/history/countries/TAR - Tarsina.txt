@@ -62,9 +62,5 @@
 		company:company_gwr = {
 			set_company_establishment_date = 1833.1.21
 		}
-
-		ig:ig_devout = { 
-			set_interest_group_name = ig_catholic_church
-		}
 	}
 }

@@ -748,7 +748,7 @@ ZUJ = { # Zuja
 	capital = STATE_WESTERN_CUBA
 }
 MES = { # Meserina
-	color = { 17 123 156 }
+	color = { 156 96 17 }
 
 	country_type = recognized
 
@@ -758,7 +758,7 @@ MES = { # Meserina
 	capital = STATE_SANTO_DOMINGO
 }
 SAR = { # Saragara
-	color = { 17 123 156 }
+	color = { 128 88 202 }
 
 	country_type = recognized
 
@@ -768,7 +768,7 @@ SAR = { # Saragara
 	capital = STATE_PANAMA
 }
 MAW = { # Maraw
-	color = { 17 123 156 }
+	color = { 34 133 21 }
 
 	country_type = recognized
 
@@ -976,4 +976,54 @@ KYE = { # Kyerthano Majora
 	
 	cultures = { yasarnian }
 	capital = STATE_ORAN
+}
+TER = { # Yasarnian Terarinaja / Marajiya
+	color = { 194 77 41 }
+
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { marajiyan }
+	capital = STATE_DELHI
+}
+DOT = { # Vattin Dorothyna
+	color = { 113 38 163 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { dorothynan }
+	capital = STATE_SOUTH_SUMATRA
+}
+DEK = { # Dekontia
+	color = { 96 136 32 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { yasarnian }
+	capital = STATE_WESTERN_AUSTRALIA
+}
+TEM = { # Temarina
+	color = { 182 36 60 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { ajian }
+	capital = STATE_YEMEN
+}
+DER = { # Dekorusia
+	color = { 32 139 77 }
+
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { valurian }
+	capital = STATE_WESTERN_AUSTRALIA
 }

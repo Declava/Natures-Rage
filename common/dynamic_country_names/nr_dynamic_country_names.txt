@@ -1,6 +1,6 @@
 ﻿KYA = {
 	dynamic_country_name = {
-		name = dyn_c_independent_kyarestaria
+		name = dyn_c_yasarnian_kyarestaria
 		adjective = KYA_ADJ
 
 		is_main_tag_only = yes
@@ -9,7 +9,55 @@
 		trigger = {
 			scope:actor ?= {
 				THIS = c:KYA
-				NOR { overlord = c:YAS }
+				overlord = c:YAS
+			}
+		}
+	}
+}
+TER = {
+	dynamic_country_name = {
+		name = dyn_c_yasarnian_terarinaja
+		adjective = TER_ADJ
+
+		is_main_tag_only = yes
+		priority = 10
+
+		trigger = {
+			scope:actor ?= {
+				THIS = c:TER
+				overlord = c:YAS
+			}
+		}
+	}
+}
+DOT = {
+	dynamic_country_name = {
+		name = dyn_c_yasarnian_dorothyna
+		adjective = DOT_ADJ
+
+		is_main_tag_only = yes
+		priority = 10
+
+		trigger = {
+			scope:actor ?= {
+				THIS = c:DOT
+				overlord = c:YAS
+			}
+		}
+	}
+}
+TEM = {
+	dynamic_country_name = {
+		name = dyn_c_yasarnian_temarina
+		adjective = TEM_ADJ
+
+		is_main_tag_only = yes
+		priority = 10
+
+		trigger = {
+			scope:actor ?= {
+				THIS = c:TEM
+				overlord = c:YAS
 			}
 		}
 	}

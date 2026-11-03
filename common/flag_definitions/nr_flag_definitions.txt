@@ -822,3 +822,57 @@ KYA = { # Kyarestaria Loratartha
 		}
 	}
 }
+KYE = { # Kyerthano Majora
+	flag_definition = {
+		coa = KYE
+		subject_canton = KYE
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+TER = { # Terarinaja
+	flag_definition = {
+		coa = TER
+		subject_canton = TER
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+DOT = { # Dorothyna
+	flag_definition = {
+		coa = DOT
+		subject_canton = DOT
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+DEK = { # Dekontia
+	flag_definition = {
+		coa = DEK
+		subject_canton = DEK
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+TEM = { # Temarina
+	flag_definition = {
+		coa = TEM
+		subject_canton = TEM
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+DER = { # Dekorusia
+	flag_definition = {
+		coa = DER
+		subject_canton = DER
+		priority = 1
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
