@@ -11,4 +11,10 @@
 	c:MAR ?= {
 		set_relations = { country = c:OST value = 100 }
 	}
+	c:VAN ?= {
+		set_relations = { country = c:YAS value = -100 }
+	}
+	c:YAS ?= {
+		set_relations = { country = c:VAN value = -100 }
+	}
 }
