@@ -129,7 +129,7 @@
  		power_blocks={ "all_shirts" 0 "all_shirts" 0 }
  		headgear={ "generic_headgear" 0 "all_headgear" 0 }
  		gene_shrink_body={ "shrink_all" 0 "" 0 }
- 		decals={ "wounded_1" 0 "wounded_1" 0 }
+ 		#decals={ "wounded_1" 0 "wounded_1" 0 }
  }
 }
 	enabled = yes

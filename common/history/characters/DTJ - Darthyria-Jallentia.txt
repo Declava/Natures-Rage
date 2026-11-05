@@ -1,7 +1,7 @@
 ﻿CHARACTERS = {
 	c:DTJ ?= {
 		create_character = {
-		# Matthieu I Vaillancourt of Darthyria-Jallentia
+		# Matthieu Vaillancourt of Darthyria-Jallentia
 			first_name = "king_matthieu_first_name"
 			last_name = "king_matthieu_last_name"
 			ruler = yes

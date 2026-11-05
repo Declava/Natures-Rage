@@ -316,7 +316,7 @@ AER = { # Aereshina
 		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
 	}
 }
-AST = { # Asteria
+REPLACE:AST = { # Asteria
 	flag_definition = {
 		coa = AST
 		subject_canton = AST
@@ -325,7 +325,7 @@ AST = { # Asteria
 		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
 	}
 }
-BAS = { # Basir Naji
+REPLACE:BAS = { # Basir Naji
 	flag_definition = {
 		coa = BAS
 		subject_canton = BAS
@@ -424,7 +424,7 @@ HAB = { # Habarina
 		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
 	}
 }
-IRE = { # Ireigo
+REPLACE:IRE = { # Ireigo
 	flag_definition = {
 		coa = IRE
 		subject_canton = IRE
@@ -451,7 +451,7 @@ ISK = { # Isketia
 		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
 	}
 }
-JAM = { # Jamiju
+REPLACE:JAM = { # Jamiju
 	flag_definition = {
 		coa = JAM
 		subject_canton = JAM
@@ -469,7 +469,7 @@ KAI = { # Kali
 		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
 	}
 }
-KAL = { # Kalud
+REPLACE:KAL = { # Kalud
 	flag_definition = {
 		coa = KAL
 		subject_canton = KAL
@@ -505,7 +505,7 @@ MAJ = { # Marjahadina
 		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
 	}
 }
-MAS = { # Mayashi-Scorpioka
+REPLACE:MAS = { # Mayashi-Scorpioka
 	flag_definition = {
 		coa = MAS
 		subject_canton = MAS
@@ -568,7 +568,7 @@ MIR = { # Miranjia
 		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
 	}
 }
-MOD = { # Morendec
+REPLACE:MOD = { # Morendec
 	flag_definition = {
 		coa = MOD
 		subject_canton = MOD
@@ -577,7 +577,7 @@ MOD = { # Morendec
 		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
 	}
 }
-MOL = { # Morlinu
+REPLACE:MOL = { # Morlinu
 	flag_definition = {
 		coa = MOL
 		subject_canton = MOL
@@ -622,7 +622,7 @@ NOB = { # Totsuii Nobutanii
 		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
 	}
 }
-POL = { # Poluna
+REPLACE:POL = { # Poluna
 	flag_definition = {
 		coa = POL
 		subject_canton = POL
@@ -658,7 +658,7 @@ SAN = { # Sanotaii
 		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
 	}
 }
-SAR = { # Saragara
+REPLACE:SAR = { # Saragara
 	flag_definition = {
 		coa = SAR
 		subject_canton = SAR
@@ -757,7 +757,7 @@ YAL = { # Yaletia
 		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
 	}
 }
-YEM = { # Yemero
+REPLACE:YEM = { # Yemero
 	flag_definition = {
 		coa = YEM
 		subject_canton = YEM

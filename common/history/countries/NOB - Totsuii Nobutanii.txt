@@ -53,36 +53,5 @@
 		activate_law = law_type:law_closed_borders
 		activate_law = law_type:law_slavery_banned
 		activate_law = law_type:law_combination_acts
-
-		if = {
-			limit = {
-				has_dlc_feature = ep2_content
-			}
-			add_journal_entry = {
-				type = je_sakoku
-			}
-			add_journal_entry = {
-				type = je_tenpo_crisis
-			}
-			trigger_event = {
-				id = tenpo_events.1
-				days = 1
-				popup = yes
-			}
-			set_variable = ryukyu_rival_member
-			every_scope_state = {
-				limit = {
-					is_in_geographic_region = geographic_region_honshu
-				}
-				add_devastation = 5
-				state_region = {
-					start_harvest_condition_with_params = {
-						type = torrential_rains
-						duration = 720
-						intensity = 5
-					}
-				}
-			}
-		}
 	}
 }
