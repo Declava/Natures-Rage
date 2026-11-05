@@ -31,7 +31,7 @@
 		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_tenant_farmers
-		activate_law = law_type:law_no_colonial_affairs
+		activate_law = law_type:law_internal_colonization
 		activate_law = law_type:law_local_police
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_private_health_insurance
